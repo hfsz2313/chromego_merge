@@ -25,11 +25,16 @@ jobs:
 
       - name: Run merge script
         run: python meta_merge.py 
-
+    
       - name: Run shadowrocket merge script
         run: python merge.py  
       - name: Run sing-box script
         run: python sing-box.py  
+      - name: Upload Files
+        uses: actions/upload-artifact@v4
+        with:
+          path: 
+             "base64.txt"
       - name: Commit Changes
         run: |
           if [[ -n "$(git status --porcelain)" ]]; then
