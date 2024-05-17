@@ -265,294 +265,84 @@ proxies:
       enabled: true
       up: 11
       down: 55
-- name: France_None_ss_121
-  type: ss
-  server: 149.202.82.172
-  port: 7306
-  password: FoOiGlkAA9yPEGP
-  cipher: aes-256-gcm
-- name: None_None_vmess_122
+- name: China_None_vmess_121
   type: vmess
-  server: fcdn.flha.ru
-  port: '2095'
+  server: 120.233.42.83
+  port: '20207'
   cipher: auto
-  uuid: 7a737f41-b792-4260-94ff-3d864da67b80
-  alterId: '0'
+  uuid: b1478e24-4916-3abe-8f17-15931012ecbe
+  alterId: 0
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /debian
+    headers:
+      host: data-hk-v1.shwjfkw.cn
+- name: United Kingdom_London_trojan_122
+  type: trojan
+  server: 18.168.194.140
+  port: 22222
+  udp: false
+  password: telegram-id-privatevpns
+  skip-cert-verify: false
+  network: tcp
+  client-fingerprint: chrome
+  sni: trojan.burgerip.co.uk
+- name: China_None_ss_123
+  type: ss
+  server: service.ouluyun9803.com
+  port: 20003
+  password: d6105bbd-be0d-45b2-82ad-31fd1071c1d2
+  cipher: chacha20-ietf-poly1305
+- name: None_None_vmess_124
+  type: vmess
+  server: server31.beheshtbaneh.com
+  port: 8880
+  cipher: auto
+  uuid: 4154143c-bbba-47a4-9f79-c2ed087cbcc9
+  alterId: 0
   tls: false
   skip-cert-verify: true
   network: ws
   ws-opts:
     path: /
     headers:
-      host: fcdn.flha.ru
-- name: France_None_ss_123
-  type: ss
-  server: 149.202.82.172
-  port: 8008
-  password: XKFKl2rULjIp74
-  cipher: aes-256-gcm
-- name: France_None_ss_124
-  type: ss
-  server: 149.202.82.172
-  port: 2375
-  password: faBAoD54k87UJG7
-  cipher: aes-256-gcm
-- name: None_None_vmess_125
+      host: server31.beheshtbaneh.com
+- name: China_None_vmess_125
   type: vmess
-  server: 104.19.52.255
-  port: '80'
+  server: m.cnmjin.net
+  port: '16632'
   cipher: auto
-  uuid: c0453a16-67e9-4eab-bdc9-b9624ad6bd29
-  alterId: '0'
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2048&amp;Telegram🇨🇳 @WangCai_8
-    headers:
-      host: in.xlb8.eu.org
-- name: France_Paris_trojan_126
-  type: trojan
-  server: 15.188.246.126
-  port: 14994
-  udp: false
-  password: Y55ZB14f21o8
-  skip-cert-verify: false
-  network: tcp
-  client-fingerprint: chrome
-  sni: appsvs.shop
-- name: France_None_ss_127
-  type: ss
-  server: 149.202.82.172
-  port: 8080
-  password: KixLvKzwjekG00rm
-  cipher: aes-256-gcm
-- name: Germany_Frankfurt am Main_trojan_128
-  type: trojan
-  server: 18.159.131.239
-  port: 14987
-  udp: false
-  password: xYNIkp6jHnRl
-  skip-cert-verify: false
-  network: tcp
-  client-fingerprint: chrome
-  sni: appsvs.shop
-- name: United States_None_vmess_129
-  type: vmess
-  server: russia.com
-  port: '8880'
-  cipher: auto
-  uuid: 64a57b5f-45e0-40c3-8316-97d0ff53fd96
-  alterId: '0'
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /api/v3/download.getFile
-    headers:
-      host: sssub.v2.001.ssrsub.com
-- name: France_None_ss_1210
-  type: ss
-  server: 149.202.82.172
-  port: 6379
-  password: zDNVedRFPQexG9v
-  cipher: aes-256-gcm
-- name: France_None_ss_1211
-  type: ss
-  server: 149.202.82.172
-  port: 5003
-  password: g5MeD6Ft3CWlJId
-  cipher: aes-256-gcm
-- name: United States_Boardman_trojan_1212
-  type: trojan
-  server: 34.216.202.226
-  port: 15000
-  udp: false
-  password: gMl3yrjmXOeO
-  skip-cert-verify: false
-  network: tcp
-  client-fingerprint: chrome
-  sni: appsvs.shop
-- name: None_None_vmess_1213
-  type: vmess
-  server: 162.159.1.33
-  port: '8080'
-  cipher: auto
-  uuid: 4f1f8f1e-926c-4edb-a398-8627110973f1
-  alterId: '0'
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /aries?ed=2048
-    headers:
-      host: do-au.alipay.ovh
-- name: None_None_vmess_1214
-  type: vmess
-  server: 104.19.52.145
-  port: '80'
-  cipher: auto
-  uuid: c0453a16-67e9-4eab-bdc9-b9624ad6bd29
-  alterId: '0'
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2048&amp;Telegram🇨🇳 @WangCai_8
-    headers:
-      host: in.xlb8.eu.org
-- name: The Netherlands_Amsterdam_trojan_1215
-  type: trojan
-  server: 103.214.68.57
-  port: 10003
-  udp: false
-  password: 6x8HcghsjS
-  skip-cert-verify: false
-  network: tcp
-  client-fingerprint: chrome
-  sni: yes998.chickenkiller.com
-- name: France_None_ss_1216
-  type: ss
-  server: 149.202.82.172
-  port: 9101
-  password: e4FCWrgpkji3QY
-  cipher: aes-256-gcm
-- name: Poland_Warsaw_ss_1217
-  type: ss
-  server: 51.77.53.200
-  port: 7307
-  password: FoOiGlkAA9yPEGP
-  cipher: aes-256-gcm
-- name: Poland_Warsaw_ss_1218
-  type: ss
-  server: 51.77.53.200
-  port: 8881
-  password: kDWvXYZoTBcGkC4
-  cipher: aes-256-gcm
-- name: Poland_Warsaw_ss_1219
-  type: ss
-  server: 51.77.53.200
-  port: 7001
-  password: RexnBgU7EV5ADxG
-  cipher: aes-256-gcm
-- name: Russia_Moscow_vmess_1220
-  type: vmess
-  server: 46.17.45.13
-  port: 17697
-  cipher: auto
-  uuid: 558ff688-d70d-4219-9e59-748289528256
-  alterId: '0'
-  tls: false
-  skip-cert-verify: true
-  network: tcp
-- name: China_Guangzhou_vmess_1221
-  type: vmess
-  server: 120.232.240.38
-  port: '8443'
-  cipher: auto
-  uuid: 39ef8f5d-7286-41b0-9c11-c976925d2931
-  alterId: '0'
-  tls: true
-  skip-cert-verify: true
-  network: tcp
-- name: None_None_vmess_1222
-  type: vmess
-  server: 104.19.40.222
-  port: '8880'
-  cipher: auto
-  uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0
-  alterId: '0'
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /d/65dd503.TG.WangCai2.WangCai_8:107690
-    headers:
-      host: uk.moss.network
-- name: France_None_ss_1223
-  type: ss
-  server: 149.202.82.172
-  port: 7307
-  password: FoOiGlkAA9yPEGP
-  cipher: aes-256-gcm
-- name: France_None_ss_1224
-  type: ss
-  server: 149.202.82.172
-  port: 3306
-  password: Y6R9pAtvxxzmGC
-  cipher: aes-256-gcm
-- name: United States_None_ss_1225
-  type: ss
-  server: 188.213.128.141
-  port: 443
-  password: xmo2HO5vJayzDyXP9CsO49+rseBG6DawoMyI5cxDLBI=
-  cipher: chacha20-poly1305
-- name: None_None_vmess_1226
-  type: vmess
-  server: 104.19.40.48
-  port: '8880'
-  cipher: auto
-  uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0
-  alterId: '0'
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /d/65dd503.TG.WangCai2.WangCai_8:107690
-    headers:
-      host: uk.moss.network
-- name: Poland_Warsaw_ss_1227
-  type: ss
-  server: 51.77.53.200
-  port: 5004
-  password: g5MeD6Ft3CWlJId
-  cipher: aes-256-gcm
-- name: Poland_Warsaw_ss_1228
-  type: ss
-  server: 51.77.53.200
-  port: 9101
-  password: e4FCWrgpkji3QY
-  cipher: aes-256-gcm
-- name: Japan_Tokyo_vmess_1229
-  type: vmess
-  server: 18.183.187.23
-  port: '80'
-  cipher: auto
-  uuid: e7c26c01-186a-479e-9218-4952353d97f1
+  uuid: 2b8cfb7b-d3e7-4525-8418-e13a9b8fd73b
   alterId: 0
   tls: false
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: ''
+    path: /
     headers:
-      host: ''
-- name: None_None_vmess_1230
+      host: dcef278233434a15c3587ef998dd119d.mobgslb.tbcache.com
+- name: China_None_vmess_126
   type: vmess
-  server: 104.19.52.127
-  port: '80'
+  server: data-us-v1.shwjfkw.cn
+  port: '20401'
   cipher: auto
-  uuid: c0453a16-67e9-4eab-bdc9-b9624ad6bd29
-  alterId: '0'
+  uuid: b1478e24-4916-3abe-8f17-15931012ecbe
+  alterId: 0
   tls: false
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /?ed=2048&amp;Telegram🇨🇳 @WangCai_8
+    path: /debian
     headers:
-      host: in.xlb8.eu.org
-- name: Poland_Warsaw_ss_1231
+      host: data-us-v1.shwjfkw.cn
+- name: China_None_ss_127
   type: ss
-  server: 51.77.53.200
-  port: 7306
-  password: FoOiGlkAA9yPEGP
-  cipher: aes-256-gcm
-- name: Poland_Warsaw_ss_1232
-  type: ss
-  server: 51.77.53.200
-  port: 4444
-  password: pKEW8JPByTVTLtM
-  cipher: aes-256-gcm
+  server: service.ouluyun9803.com
+  port: 26667
+  password: d6105bbd-be0d-45b2-82ad-31fd1071c1d2
+  cipher: chacha20-ietf-poly1305
 - name: United States_Los Angeles_hy_0
   type: hysteria
   server: 108.181.5.133
@@ -663,38 +453,13 @@ proxy-groups:
   - United States_Kansas City_hysteria2_71
   - United States_Kansas City_vless_81
   - United States_Kansas City_ss_91
-  - France_None_ss_121
-  - None_None_vmess_122
-  - France_None_ss_123
-  - France_None_ss_124
-  - None_None_vmess_125
-  - France_Paris_trojan_126
-  - France_None_ss_127
-  - Germany_Frankfurt am Main_trojan_128
-  - United States_None_vmess_129
-  - France_None_ss_1210
-  - France_None_ss_1211
-  - United States_Boardman_trojan_1212
-  - None_None_vmess_1213
-  - None_None_vmess_1214
-  - The Netherlands_Amsterdam_trojan_1215
-  - France_None_ss_1216
-  - Poland_Warsaw_ss_1217
-  - Poland_Warsaw_ss_1218
-  - Poland_Warsaw_ss_1219
-  - Russia_Moscow_vmess_1220
-  - China_Guangzhou_vmess_1221
-  - None_None_vmess_1222
-  - France_None_ss_1223
-  - France_None_ss_1224
-  - United States_None_ss_1225
-  - None_None_vmess_1226
-  - Poland_Warsaw_ss_1227
-  - Poland_Warsaw_ss_1228
-  - Japan_Tokyo_vmess_1229
-  - None_None_vmess_1230
-  - Poland_Warsaw_ss_1231
-  - Poland_Warsaw_ss_1232
+  - China_None_vmess_121
+  - United Kingdom_London_trojan_122
+  - China_None_ss_123
+  - None_None_vmess_124
+  - China_None_vmess_125
+  - China_None_vmess_126
+  - China_None_ss_127
   - United States_Los Angeles_hy_0
   - France_None_hy_1
   - France_None_hy_2
@@ -725,38 +490,13 @@ proxy-groups:
   - United States_Kansas City_hysteria2_71
   - United States_Kansas City_vless_81
   - United States_Kansas City_ss_91
-  - France_None_ss_121
-  - None_None_vmess_122
-  - France_None_ss_123
-  - France_None_ss_124
-  - None_None_vmess_125
-  - France_Paris_trojan_126
-  - France_None_ss_127
-  - Germany_Frankfurt am Main_trojan_128
-  - United States_None_vmess_129
-  - France_None_ss_1210
-  - France_None_ss_1211
-  - United States_Boardman_trojan_1212
-  - None_None_vmess_1213
-  - None_None_vmess_1214
-  - The Netherlands_Amsterdam_trojan_1215
-  - France_None_ss_1216
-  - Poland_Warsaw_ss_1217
-  - Poland_Warsaw_ss_1218
-  - Poland_Warsaw_ss_1219
-  - Russia_Moscow_vmess_1220
-  - China_Guangzhou_vmess_1221
-  - None_None_vmess_1222
-  - France_None_ss_1223
-  - France_None_ss_1224
-  - United States_None_ss_1225
-  - None_None_vmess_1226
-  - Poland_Warsaw_ss_1227
-  - Poland_Warsaw_ss_1228
-  - Japan_Tokyo_vmess_1229
-  - None_None_vmess_1230
-  - Poland_Warsaw_ss_1231
-  - Poland_Warsaw_ss_1232
+  - China_None_vmess_121
+  - United Kingdom_London_trojan_122
+  - China_None_ss_123
+  - None_None_vmess_124
+  - China_None_vmess_125
+  - China_None_vmess_126
+  - China_None_ss_127
   - United States_Los Angeles_hy_0
   - France_None_hy_1
   - France_None_hy_2
