@@ -265,22 +265,189 @@ proxies:
       enabled: true
       up: 11
       down: 55
-- name: China_None_ss_121
-  type: ss
-  server: service.ouluyun9803.com
-  port: 20005
-  password: d6105bbd-be0d-45b2-82ad-31fd1071c1d2
-  cipher: chacha20-ietf-poly1305
-- name: The Netherlands_Meppel_ss_122
-  type: ss
-  server: 185.242.86.156
-  port: 54170
-  password: 36ZCHeabUSfKjfQEvJ4HDV
-  cipher: chacha20-ietf-poly1305
-- name: China_None_vmess_123
+- name: Japan_Tokyo_trojan_121
+  type: trojan
+  server: 18.179.198.104
+  port: 12638
+  udp: false
+  password: pjGrulbiWoBX
+  skip-cert-verify: false
+  network: tcp
+  client-fingerprint: chrome
+  sni: appsvs.shop
+- name: None_None_vmess_122
   type: vmess
-  server: data-us-v1.shwjfkw.cn
-  port: '20401'
+  server: cfcdn3.sanfencdn9.com
+  port: 2052
+  cipher: auto
+  uuid: c74c2fd1-7e5b-4c20-be9f-f3c3b7fd6248
+  alterId: '0'
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /video/Zo98PYfE
+    headers:
+      host: kvjqqknzjp6.yofnhkfc.xyz
+- name: None_None_vmess_123
+  type: vmess
+  server: 104.21.8.157
+  port: '2082'
+  cipher: auto
+  uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a
+  alterId: '0'
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      host: s1c.v2.v001sss.xyz
+- name: China_Yichang_vmess_124
+  type: vmess
+  server: data-jp-v1.usabooks.com.cn
+  port: '20301'
+  cipher: auto
+  uuid: b1478e24-4916-3abe-8f17-15931012ecbe
+  alterId: '0'
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /debian
+    headers:
+      host: data-jp-v1.usabooks.com.cn
+- name: China_None_vmess_125
+  type: vmess
+  server: 120.238.122.243
+  port: '40259'
+  cipher: auto
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: '64'
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+- name: China_None_trojan_126
+  type: trojan
+  server: 36.151.195.48
+  port: 20344
+  udp: false
+  password: TNDSJfNv
+  skip-cert-verify: true
+  network: tcp
+  client-fingerprint: chrome
+- name: Singapore_Singapore_trojan_127
+  type: trojan
+  server: 3.0.104.131
+  port: 12636
+  udp: false
+  password: CTjzrnoV5jja
+  skip-cert-verify: false
+  network: tcp
+  client-fingerprint: chrome
+  sni: appsvs.shop
+- name: United States_None_vmess_128
+  type: vmess
+  server: russia.com
+  port: '8880'
+  cipher: auto
+  uuid: 64a57b5f-45e0-40c3-8316-97d0ff53fd96
+  alterId: '0'
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /api/v3/download.getFile
+    headers:
+      host: sssub.v2.001.ssrsub.com
+- name: None_None_vmess_129
+  type: vmess
+  server: 104.16.45.164
+  port: '80'
+  cipher: auto
+  uuid: c0453a16-67e9-4eab-bdc9-b9624ad6bd29
+  alterId: 0
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /?ed=2048&amp;Telegram🇨🇳 @WangCai_8
+    headers:
+      host: jp.xlb8.eu.org
+- name: Austria_Vienna_ss_1210
+  type: ss
+  server: 95.164.9.144
+  port: 2927
+  password: ug4Fu79SEREdFGlt2sUyT4
+  cipher: chacha20-ietf-poly1305
+- name: None_None_trojan_1211
+  type: trojan
+  server: 104.21.69.44
+  port: 443
+  udp: false
+  password: qj1Dz1CJmFQRhWr1SP80aA
+  skip-cert-verify: false
+  network: tcp
+  client-fingerprint: chrome
+  sni: cdn-21.gsmxreality.com
+- name: Japan_Tokyo_trojan_1212
+  type: trojan
+  server: 54.238.152.95
+  port: 12625
+  udp: false
+  password: r1fc3D86HGKj
+  skip-cert-verify: false
+  network: tcp
+  client-fingerprint: chrome
+  sni: appsvs.shop
+- name: China_None_vmess_1213
+  type: vmess
+  server: 183.236.51.59
+  port: '51707'
+  cipher: auto
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: '64'
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+- name: None_None_vmess_1214
+  type: vmess
+  server: russia.com
+  port: '2095'
+  cipher: auto
+  uuid: 64a57b5f-45e0-40c3-8316-97d0ff53fd96
+  alterId: '0'
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /api/v3/download.getFile
+    headers:
+      host: sssub.v2.001.ssrsub.com
+- name: None_None_trojan_1215
+  type: trojan
+  server: 104.16.159.3
+  port: 443
+  udp: false
+  password: dba20dcb635e430fa4d3bfc303a149d2
+  skip-cert-verify: false
+  network: tcp
+  client-fingerprint: chrome
+  sni: bangladeshipatri.com
+- name: China_Guangzhou_vmess_1216
+  type: vmess
+  server: 120.232.240.38
+  port: '8443'
+  cipher: auto
+  uuid: 39ef8f5d-7286-41b0-9c11-c976925d2931
+  alterId: '0'
+  tls: true
+  skip-cert-verify: true
+  network: tcp
+- name: China_None_vmess_1217
+  type: vmess
+  server: 120.233.42.83
+  port: '20206'
   cipher: auto
   uuid: b1478e24-4916-3abe-8f17-15931012ecbe
   alterId: 0
@@ -290,19 +457,64 @@ proxies:
   ws-opts:
     path: /debian
     headers:
-      host: data-us-v1.shwjfkw.cn
-- name: United States_None_vmess_124
+      host: data-hk-v1.usabooks.com.cn
+- name: United States_None_ss_1218
+  type: ss
+  server: 188.213.128.141
+  port: 443
+  password: xmo2HO5vJayzDyXP9CsO49+rseBG6DawoMyI5cxDLBI=
+  cipher: chacha20-poly1305
+- name: United States_None_vmess_1219
   type: vmess
-  server: onea.flha.ru
-  port: '2095'
+  server: 172.67.204.84
+  port: '2096'
   cipher: auto
-  uuid: 7a737f41-b792-4260-94ff-3d864da67b80
+  uuid: 02b3ec8f-f568-47c8-9746-fa9a24e547d6
   alterId: '0'
-  tls: false
+  tls: true
+  skip-cert-verify: true
+  network: grpc
+  grpc-opts:
+    grpc-service-name: Freevpnhomes
+    grpc-mode: gun
+- name: Sweden_Stockholm_trojan_1220
+  type: trojan
+  server: 16.16.71.44
+  port: 22222
+  udp: false
+  password: telegram-id-directvpn
+  skip-cert-verify: false
+  network: tcp
+  client-fingerprint: chrome
+  sni: trojan.burgerip.co.uk
+- name: Bahrain_None_ss_1221
+  type: ss
+  server: 157.175.14.228
+  port: 443
+  password: Bog0ELmMM9DSxDdQ
+  cipher: chacha20-poly1305
+- name: United Kingdom_London_trojan_1222
+  type: trojan
+  server: 18.168.85.167
+  port: 22222
+  udp: false
+  password: telegram-id-directvpn
+  skip-cert-verify: false
+  network: tcp
+  client-fingerprint: chrome
+  sni: trojan.burgerip.co.uk
+- name: United States_Los Angeles_vmess_1223
+  type: vmess
+  server: 195.123.240.45
+  port: '12947'
+  cipher: auto
+  uuid: 8259cb1c-dd6c-4739-9c88-af550d977525
+  alterId: '0'
+  tls: true
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /
+    path: ''
     headers:
       host: ''
 - name: United States_Los Angeles_hy_0
@@ -415,10 +627,29 @@ proxy-groups:
   - United States_Kansas City_hysteria2_71
   - United States_Kansas City_vless_81
   - United States_Kansas City_ss_91
-  - China_None_ss_121
-  - The Netherlands_Meppel_ss_122
-  - China_None_vmess_123
-  - United States_None_vmess_124
+  - Japan_Tokyo_trojan_121
+  - None_None_vmess_122
+  - None_None_vmess_123
+  - China_Yichang_vmess_124
+  - China_None_vmess_125
+  - China_None_trojan_126
+  - Singapore_Singapore_trojan_127
+  - United States_None_vmess_128
+  - None_None_vmess_129
+  - Austria_Vienna_ss_1210
+  - None_None_trojan_1211
+  - Japan_Tokyo_trojan_1212
+  - China_None_vmess_1213
+  - None_None_vmess_1214
+  - None_None_trojan_1215
+  - China_Guangzhou_vmess_1216
+  - China_None_vmess_1217
+  - United States_None_ss_1218
+  - United States_None_vmess_1219
+  - Sweden_Stockholm_trojan_1220
+  - Bahrain_None_ss_1221
+  - United Kingdom_London_trojan_1222
+  - United States_Los Angeles_vmess_1223
   - United States_Los Angeles_hy_0
   - France_None_hy_1
   - France_None_hy_2
@@ -449,10 +680,29 @@ proxy-groups:
   - United States_Kansas City_hysteria2_71
   - United States_Kansas City_vless_81
   - United States_Kansas City_ss_91
-  - China_None_ss_121
-  - The Netherlands_Meppel_ss_122
-  - China_None_vmess_123
-  - United States_None_vmess_124
+  - Japan_Tokyo_trojan_121
+  - None_None_vmess_122
+  - None_None_vmess_123
+  - China_Yichang_vmess_124
+  - China_None_vmess_125
+  - China_None_trojan_126
+  - Singapore_Singapore_trojan_127
+  - United States_None_vmess_128
+  - None_None_vmess_129
+  - Austria_Vienna_ss_1210
+  - None_None_trojan_1211
+  - Japan_Tokyo_trojan_1212
+  - China_None_vmess_1213
+  - None_None_vmess_1214
+  - None_None_trojan_1215
+  - China_Guangzhou_vmess_1216
+  - China_None_vmess_1217
+  - United States_None_ss_1218
+  - United States_None_vmess_1219
+  - Sweden_Stockholm_trojan_1220
+  - Bahrain_None_ss_1221
+  - United Kingdom_London_trojan_1222
+  - United States_Los Angeles_vmess_1223
   - United States_Los Angeles_hy_0
   - France_None_hy_1
   - France_None_hy_2
