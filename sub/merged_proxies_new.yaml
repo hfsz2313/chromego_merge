@@ -1691,183 +1691,31 @@ proxies:
   up: 11
   down: 55
   hop_interval: 10
-- name: None_None_vmess_121
+- name: Luxembourg_None_vmess_121
   type: vmess
-  server: 104.20.36.139
-  port: '80'
+  server: 202.78.162.5
+  port: 443
   cipher: auto
-  uuid: 2d14e84b-226b-412a-9a3c-ffce70b02bdf
-  alterId: '0'
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /vmess
-    headers:
-      host: 127.0.0.1.dl.эврика.mrarsha.尤里卡.醫生.специалист.wonkacapitano.buzz.
-- name: None_None_vmess_122
-  type: vmess
-  server: 104.19.47.79
-  port: 2086
-  cipher: auto
-  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  uuid: 118287d2-e968-42e1-80d0-12fa2f5d38d6
   alterId: 0
-  tls: false
+  tls: true
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: github.com/Alvin9999
+    path: /@forwardv2ray
     headers:
-      host: ip14.freegradely.xyz
-- name: None_None_vmess_123
-  type: vmess
-  server: 104.19.47.36
-  port: 2086
-  cipher: auto
-  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
-  alterId: 0
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: github.com/Alvin9999
-    headers:
-      host: ip14.freegradely.xyz
-- name: None_None_vmess_124
-  type: vmess
-  server: 104.19.47.126
-  port: '8080'
-  cipher: auto
-  uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d
-  alterId: '0'
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      host: oiictw.yydsii.com
-- name: Ireland_Dublin_trojan_125
+      host: sahand.serveminecraft.net
+- name: None_None_trojan_122
   type: trojan
-  server: 52.215.113.11
-  port: 22222
+  server: 104.16.1.10
+  port: 443
   udp: false
-  password: telegram-id-directvpn
+  password: qj1Dz1CJmFQRhWr1SP80aA
   skip-cert-verify: false
   network: tcp
   client-fingerprint: chrome
-  sni: trojan.burgerip.co.uk
-- name: United States_Boardman_trojan_126
-  type: trojan
-  server: 34.222.34.46
-  port: 16925
-  udp: false
-  password: 4znNFaTSpUJK
-  skip-cert-verify: false
-  network: tcp
-  client-fingerprint: chrome
-  sni: appsvs.shop
-- name: United States_None_vmess_127
-  type: vmess
-  server: 172.64.194.76
-  port: 2086
-  cipher: auto
-  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
-  alterId: 0
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: github.com/Alvin9999
-    headers:
-      host: ip14.freegradely.xyz
-- name: China_Guangzhou_vmess_128
-  type: vmess
-  server: 120.232.153.40
-  port: '35601'
-  cipher: auto
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  alterId: '64'
-  tls: false
-  skip-cert-verify: true
-  network: tcp
-- name: Canada_Montreal_trojan_129
-  type: trojan
-  server: 35.182.182.36
-  port: 22222
-  udp: false
-  password: telegram-id-directvpn
-  skip-cert-verify: false
-  network: tcp
-  client-fingerprint: chrome
-  sni: trojan.burgerip.co.uk
-- name: None_None_vmess_1210
-  type: vmess
-  server: 104.19.47.186
-  port: '8080'
-  cipher: auto
-  uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d
-  alterId: '0'
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      host: oiictw.yydsii.com
-- name: United States_None_vmess_1211
-  type: vmess
-  server: 172.67.185.62
-  port: '8080'
-  cipher: auto
-  uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d
-  alterId: '0'
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      host: oiictw.yydsii.com
-- name: Taiwan_Taipei_trojan_1212
-  type: trojan
-  server: 211.72.156.17
-  port: 23555
-  udp: false
-  password: moist
-  skip-cert-verify: false
-  network: tcp
-  client-fingerprint: chrome
-  sni: trojan.freenods.sbs
-- name: None_None_vmess_1213
-  type: vmess
-  server: 104.19.46.33
-  port: 2086
-  cipher: auto
-  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
-  alterId: '0'
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: github.com/Alvin9999
-    headers:
-      host: ip13.freegradely.xyz
-- name: None_None_vmess_1214
-  type: vmess
-  server: 104.19.45.42
-  port: 2086
-  cipher: auto
-  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
-  alterId: 0
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: github.com/Alvin9999
-    headers:
-      host: ip14.freegradely.xyz
-- name: United Kingdom_London_trojan_1215
+  sni: cdn-21.gsmxreality.com
+- name: United Kingdom_London_trojan_123
   type: trojan
   server: 35.176.161.65
   port: 22222
@@ -1877,370 +1725,26 @@ proxies:
   network: tcp
   client-fingerprint: chrome
   sni: trojan.burgerip.co.uk
-- name: None_None_vmess_1216
+- name: China_None_vmess_124
   type: vmess
-  server: 104.19.58.175
-  port: 2086
-  cipher: auto
-  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
-  alterId: 0
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: github.com/Alvin9999
-    headers:
-      host: ip14.freegradely.xyz
-- name: United Kingdom_London_trojan_1217
-  type: trojan
-  server: 18.133.4.70
-  port: 22222
-  udp: false
-  password: telegram-id-privatevpns
-  skip-cert-verify: false
-  network: tcp
-  client-fingerprint: chrome
-  sni: trojan.burgerip.co.uk
-- name: Canada_Ottawa_vmess_1218
-  type: vmess
-  server: 23.227.38.3
-  port: 2086
-  cipher: auto
-  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
-  alterId: 0
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: github.com/Alvin9999
-    headers:
-      host: ip14.freegradely.xyz
-- name: China_None_vmess_1219
-  type: vmess
-  server: 183.240.235.166
-  port: '41490'
+  server: 183.240.235.162
+  port: 54002
   cipher: auto
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  alterId: '64'
+  alterId: 64
   tls: false
   skip-cert-verify: true
   network: tcp
-- name: Canada_Ottawa_vmess_1220
-  type: vmess
-  server: 23.227.38.6
-  port: 2086
-  cipher: auto
-  uuid: 29eebb60-b27b-4a9d-bba5-947763d9205e
-  alterId: 0
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: github.com/Alvin9999
-    headers:
-      host: ip004.dtku47.xyz
-- name: None_None_vmess_1221
-  type: vmess
-  server: 104.19.42.49
-  port: 2086
-  cipher: auto
-  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
-  alterId: 0
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: github.com/Alvin9999
-    headers:
-      host: ip14.freegradely.xyz
-- name: None_None_vmess_1222
-  type: vmess
-  server: 104.26.0.66
-  port: 2052
-  cipher: auto
-  uuid: d6b6d982-d52f-465a-b988-85670b23f64a
-  alterId: '0'
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: github.com/Alvin9999
-    headers:
-      host: cdn2.freegradely.xyz
-- name: United States_None_vmess_1223
-  type: vmess
-  server: 172.67.130.140
-  port: '2082'
-  cipher: auto
-  uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a
-  alterId: '0'
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      host: s1c.v2.v001sss.xyz
-- name: United States_Columbus_trojan_1224
+- name: Canada_Montreal_trojan_125
   type: trojan
-  server: 3.145.153.199
-  port: 16930
-  udp: false
-  password: ezOXUQgXU2h8
-  skip-cert-verify: false
-  network: tcp
-  client-fingerprint: chrome
-  sni: appsvs.shop
-- name: None_None_trojan_1225
-  type: trojan
-  server: 104.18.12.229
-  port: 8443
-  udp: false
-  password: trojan
-  skip-cert-verify: false
-  network: tcp
-  client-fingerprint: chrome
-  sni: mav2flyng.pages.dev
-- name: Sweden_Stockholm_trojan_1226
-  type: trojan
-  server: 13.60.143.125
+  server: 35.182.182.36
   port: 22222
   udp: false
-  password: telegram-id-privatevpns
+  password: telegram-id-directvpn
   skip-cert-verify: false
   network: tcp
   client-fingerprint: chrome
   sni: trojan.burgerip.co.uk
-- name: China_None_vmess_1227
-  type: vmess
-  server: 183.240.235.166
-  port: '31778'
-  cipher: auto
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  alterId: '64'
-  tls: false
-  skip-cert-verify: true
-  network: tcp
-- name: None_None_vmess_1228
-  type: vmess
-  server: 104.26.7.132
-  port: 2086
-  cipher: auto
-  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
-  alterId: 0
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: github.com/Alvin9999
-    headers:
-      host: ip14.freegradely.xyz
-- name: China_None_ss_1229
-  type: ss
-  server: deepf.hjkdsak2.com
-  port: 20003
-  password: 99301d55-a41f-4919-986b-1435996533aa
-  cipher: chacha20-ietf-poly1305
-- name: United States_Columbus_trojan_1230
-  type: trojan
-  server: 3.128.173.216
-  port: 16931
-  udp: false
-  password: vsolY7obwMHw
-  skip-cert-verify: false
-  network: tcp
-  client-fingerprint: chrome
-  sni: appsvs.shop
-- name: None_None_vmess_1231
-  type: vmess
-  server: 104.19.46.103
-  port: '2052'
-  cipher: auto
-  uuid: d6b6d982-d52f-465a-b988-85670b23f64a
-  alterId: '0'
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: github.com/Alvin9999
-    headers:
-      host: cdn1.freegradely.xyz
-- name: Japan_Tokyo_trojan_1232
-  type: trojan
-  server: jp08.421421.xyz
-  port: 20230
-  udp: false
-  password: 4aa9ee7a-ffee-4ca4-a588-f5fa9e979c38
-  skip-cert-verify: true
-  network: tcp
-  client-fingerprint: chrome
-  sni: 421421.xyz
-- name: None_None_vmess_1233
-  type: vmess
-  server: 104.19.46.39
-  port: 2086
-  cipher: auto
-  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
-  alterId: 0
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: github.com/Alvin9999
-    headers:
-      host: ip13.freegradely.xyz
-- name: Poland_Warsaw_trojan_1234
-  type: trojan
-  server: 151.115.83.239
-  port: 43118
-  udp: false
-  password: ypDt8RkT7J
-  skip-cert-verify: false
-  network: tcp
-  client-fingerprint: chrome
-  sni: egajz.phooeyunfold.com
-- name: None_None_trojan_1235
-  type: trojan
-  server: 104.19.171.4
-  port: 443
-  udp: false
-  password: dba20dcb635e430fa4d3bfc303a149d2
-  skip-cert-verify: false
-  network: tcp
-  client-fingerprint: chrome
-  sni: jobscareertoday.com
-- name: China_None_trojan_1236
-  type: trojan
-  server: 223.113.54.154
-  port: 23621
-  udp: false
-  password: RmdXQRXg
-  skip-cert-verify: false
-  network: tcp
-  client-fingerprint: chrome
-- name: None_None_vmess_1237
-  type: vmess
-  server: 104.19.45.17
-  port: 2086
-  cipher: auto
-  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
-  alterId: 0
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: github.com/Alvin9999
-    headers:
-      host: ip13.freegradely.xyz
-- name: United States_Ashburn_ss_1238
-  type: ss
-  server: 38.86.135.31
-  port: 5498
-  password: lGqs95QkFHo2NV
-  cipher: aes-256-gcm
-- name: France_Paris_trojan_1239
-  type: trojan
-  server: 13.36.35.65
-  port: 22222
-  udp: false
-  password: telegram-id-privatevpns
-  skip-cert-verify: false
-  network: tcp
-  client-fingerprint: chrome
-  sni: trojan.burgerip.co.uk
-- name: Japan_Tokyo_trojan_1240
-  type: trojan
-  server: 18.183.126.189
-  port: 16941
-  udp: false
-  password: uY0lqtWOBrgY
-  skip-cert-verify: false
-  network: tcp
-  client-fingerprint: chrome
-  sni: appsvs.shop
-- name: None_None_vmess_1241
-  type: vmess
-  server: 104.19.47.32
-  port: 2086
-  cipher: auto
-  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
-  alterId: 0
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: github.com/Alvin9999
-    headers:
-      host: ip14.freegradely.xyz
-- name: None_None_vmess_1242
-  type: vmess
-  server: 104.26.7.152
-  port: 2052
-  cipher: auto
-  uuid: d6b6d982-d52f-465a-b988-85670b23f64a
-  alterId: 0
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: github.com/Alvin9999
-    headers:
-      host: cdn2.freegradely.xyz
-- name: United States_None_vmess_1243
-  type: vmess
-  server: elma.ns.cloudflare.com
-  port: '2087'
-  cipher: auto
-  uuid: 2a3263e2-891c-4446-b474-a8c63acb6e25
-  alterId: '0'
-  tls: true
-  skip-cert-verify: true
-  network: grpc
-  grpc-opts:
-    grpc-service-name: ''
-    grpc-mode: gun
-- name: None_None_vmess_1244
-  type: vmess
-  server: 104.19.32.216
-  port: 2086
-  cipher: auto
-  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
-  alterId: '0'
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: github.com/Alvin9999
-    headers:
-      host: ip14.freegradely.xyz
-- name: None_None_vmess_1245
-  type: vmess
-  server: 104.19.57.4
-  port: 2086
-  cipher: auto
-  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
-  alterId: '0'
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: github.com/Alvin9999
-    headers:
-      host: ip11.freegradely.xyz
-- name: None_None_vmess_1246
-  type: vmess
-  server: 104.19.21.240
-  port: 2052
-  cipher: auto
-  uuid: d6b6d982-d52f-465a-b988-85670b23f64a
-  alterId: 0
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: github.com/Alvin9999
-    headers:
-      host: cdn1.freegradely.xyz
 - name: France_None_hy_0
   type: hysteria
   server: 62.210.243.131
@@ -2447,52 +1951,11 @@ proxy-groups:
   - None_None_vmess_74
   - United States_None_ss_81
   - United States_None_hysteria_91
-  - None_None_vmess_121
-  - None_None_vmess_122
-  - None_None_vmess_123
-  - None_None_vmess_124
-  - Ireland_Dublin_trojan_125
-  - United States_Boardman_trojan_126
-  - United States_None_vmess_127
-  - China_Guangzhou_vmess_128
-  - Canada_Montreal_trojan_129
-  - None_None_vmess_1210
-  - United States_None_vmess_1211
-  - Taiwan_Taipei_trojan_1212
-  - None_None_vmess_1213
-  - None_None_vmess_1214
-  - United Kingdom_London_trojan_1215
-  - None_None_vmess_1216
-  - United Kingdom_London_trojan_1217
-  - Canada_Ottawa_vmess_1218
-  - China_None_vmess_1219
-  - Canada_Ottawa_vmess_1220
-  - None_None_vmess_1221
-  - None_None_vmess_1222
-  - United States_None_vmess_1223
-  - United States_Columbus_trojan_1224
-  - None_None_trojan_1225
-  - Sweden_Stockholm_trojan_1226
-  - China_None_vmess_1227
-  - None_None_vmess_1228
-  - China_None_ss_1229
-  - United States_Columbus_trojan_1230
-  - None_None_vmess_1231
-  - Japan_Tokyo_trojan_1232
-  - None_None_vmess_1233
-  - Poland_Warsaw_trojan_1234
-  - None_None_trojan_1235
-  - China_None_trojan_1236
-  - None_None_vmess_1237
-  - United States_Ashburn_ss_1238
-  - France_Paris_trojan_1239
-  - Japan_Tokyo_trojan_1240
-  - None_None_vmess_1241
-  - None_None_vmess_1242
-  - United States_None_vmess_1243
-  - None_None_vmess_1244
-  - None_None_vmess_1245
-  - None_None_vmess_1246
+  - Luxembourg_None_vmess_121
+  - None_None_trojan_122
+  - United Kingdom_London_trojan_123
+  - China_None_vmess_124
+  - Canada_Montreal_trojan_125
   - France_None_hy_0
   - France_None_hy_1
   - France_None_hy_2
@@ -2619,52 +2082,11 @@ proxy-groups:
   - None_None_vmess_74
   - United States_None_ss_81
   - United States_None_hysteria_91
-  - None_None_vmess_121
-  - None_None_vmess_122
-  - None_None_vmess_123
-  - None_None_vmess_124
-  - Ireland_Dublin_trojan_125
-  - United States_Boardman_trojan_126
-  - United States_None_vmess_127
-  - China_Guangzhou_vmess_128
-  - Canada_Montreal_trojan_129
-  - None_None_vmess_1210
-  - United States_None_vmess_1211
-  - Taiwan_Taipei_trojan_1212
-  - None_None_vmess_1213
-  - None_None_vmess_1214
-  - United Kingdom_London_trojan_1215
-  - None_None_vmess_1216
-  - United Kingdom_London_trojan_1217
-  - Canada_Ottawa_vmess_1218
-  - China_None_vmess_1219
-  - Canada_Ottawa_vmess_1220
-  - None_None_vmess_1221
-  - None_None_vmess_1222
-  - United States_None_vmess_1223
-  - United States_Columbus_trojan_1224
-  - None_None_trojan_1225
-  - Sweden_Stockholm_trojan_1226
-  - China_None_vmess_1227
-  - None_None_vmess_1228
-  - China_None_ss_1229
-  - United States_Columbus_trojan_1230
-  - None_None_vmess_1231
-  - Japan_Tokyo_trojan_1232
-  - None_None_vmess_1233
-  - Poland_Warsaw_trojan_1234
-  - None_None_trojan_1235
-  - China_None_trojan_1236
-  - None_None_vmess_1237
-  - United States_Ashburn_ss_1238
-  - France_Paris_trojan_1239
-  - Japan_Tokyo_trojan_1240
-  - None_None_vmess_1241
-  - None_None_vmess_1242
-  - United States_None_vmess_1243
-  - None_None_vmess_1244
-  - None_None_vmess_1245
-  - None_None_vmess_1246
+  - Luxembourg_None_vmess_121
+  - None_None_trojan_122
+  - United Kingdom_London_trojan_123
+  - China_None_vmess_124
+  - Canada_Montreal_trojan_125
   - France_None_hy_0
   - France_None_hy_1
   - France_None_hy_2
