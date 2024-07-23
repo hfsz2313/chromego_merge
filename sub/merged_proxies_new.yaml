@@ -1465,7 +1465,7 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip1.1789034.xyz
-- name: United States_None_vmess_097
+- name: None_None_vmess_097
   type: vmess
   server: malaysia.com
   port: 2086
@@ -1480,7 +1480,7 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip1.1789034.xyz
-- name: United States_None_vmess_098
+- name: None_None_vmess_098
   type: vmess
   server: russia.com
   port: 2086
@@ -1495,7 +1495,7 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip1.1789034.xyz
-- name: None_None_vmess_099
+- name: United States_None_vmess_099
   type: vmess
   server: singapore.com
   port: 2086
@@ -1510,7 +1510,7 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip1.1789034.xyz
-- name: United States_None_vmess_0100
+- name: None_None_vmess_0100
   type: vmess
   server: skk.moe
   port: 2086
@@ -2387,6 +2387,77 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip5-10.freegradely.xyz
+- name: China_None_trojan_121
+  type: trojan
+  server: 36.151.195.77
+  port: 20819
+  udp: false
+  password: MfqALmAJ
+  skip-cert-verify: true
+  network: tcp
+  client-fingerprint: chrome
+- name: None_None_vmess_122
+  type: vmess
+  server: cfcdn3.sanfencdn9.com
+  port: '2052'
+  cipher: auto
+  uuid: 78c40177-c364-480d-bd77-76e9d89f69b4
+  alterId: 0
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /video/Zo98PYfE
+    headers:
+      host: kvjqqknzjp6.yofnhkfc.xyz
+- name: United States_None_vmess_123
+  type: vmess
+  server: 198.2.234.98
+  port: '39771'
+  cipher: auto
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: '64'
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+- name: Japan_Tokyo_ss_124
+  type: ss
+  server: tw03.jjjjjj.icu
+  port: 30401
+  password: 9c2bf54f-5f13-4d71-b866-3a3f23c4d86b
+  cipher: chacha20-ietf-poly1305
+- name: Japan_Tokyo_ss_125
+  type: ss
+  server: nn.auozzjs.lol
+  port: 10002
+  password: 9c2bf54f-5f13-4d71-b866-3a3f23c4d86b
+  cipher: chacha20-ietf-poly1305
+- name: Japan_Tokyo_ss_126
+  type: ss
+  server: bgp3.jjjjjj.icu
+  port: 50003
+  password: 9c2bf54f-5f13-4d71-b866-3a3f23c4d86b
+  cipher: chacha20-ietf-poly1305
+- name: Italy_Siziano_vmess_127
+  type: vmess
+  server: 155.724064.xyz
+  port: 443
+  cipher: auto
+  uuid: 64917049-d265-477f-a4cf-b5076e746270
+  alterId: '0'
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /sbudvws
+    headers:
+      host: 155.724064.xyz
+- name: Japan_Tokyo_ss_128
+  type: ss
+  server: hk15.jjjjjj.icu
+  port: 53251
+  password: 9c2bf54f-5f13-4d71-b866-3a3f23c4d86b
+  cipher: chacha20-ietf-poly1305
 - name: United States_Dallas_hy_0
   type: hysteria
   server: 38.135.52.192
@@ -2591,10 +2662,10 @@ proxy-groups:
   - None_None_vmess_094
   - United States_None_vmess_095
   - None_None_vmess_096
-  - United States_None_vmess_097
-  - United States_None_vmess_098
-  - None_None_vmess_099
-  - United States_None_vmess_0100
+  - None_None_vmess_097
+  - None_None_vmess_098
+  - United States_None_vmess_099
+  - None_None_vmess_0100
   - None_None_vmess_0101
   - None_None_vmess_11
   - None_None_vmess_12
@@ -2653,6 +2724,14 @@ proxy-groups:
   - Canada_Ottawa_vmess_92
   - None_None_vmess_93
   - None_None_vmess_94
+  - China_None_trojan_121
+  - None_None_vmess_122
+  - United States_None_vmess_123
+  - Japan_Tokyo_ss_124
+  - Japan_Tokyo_ss_125
+  - Japan_Tokyo_ss_126
+  - Italy_Siziano_vmess_127
+  - Japan_Tokyo_ss_128
   - United States_Dallas_hy_0
   - United States_Dallas_hy_1
   - United States_Dallas_hy_2
@@ -2764,10 +2843,10 @@ proxy-groups:
   - None_None_vmess_094
   - United States_None_vmess_095
   - None_None_vmess_096
-  - United States_None_vmess_097
-  - United States_None_vmess_098
-  - None_None_vmess_099
-  - United States_None_vmess_0100
+  - None_None_vmess_097
+  - None_None_vmess_098
+  - United States_None_vmess_099
+  - None_None_vmess_0100
   - None_None_vmess_0101
   - None_None_vmess_11
   - None_None_vmess_12
@@ -2826,6 +2905,14 @@ proxy-groups:
   - Canada_Ottawa_vmess_92
   - None_None_vmess_93
   - None_None_vmess_94
+  - China_None_trojan_121
+  - None_None_vmess_122
+  - United States_None_vmess_123
+  - Japan_Tokyo_ss_124
+  - Japan_Tokyo_ss_125
+  - Japan_Tokyo_ss_126
+  - Italy_Siziano_vmess_127
+  - Japan_Tokyo_ss_128
   - United States_Dallas_hy_0
   - United States_Dallas_hy_1
   - United States_Dallas_hy_2
