@@ -245,7 +245,7 @@ proxies:
   tfo: false
   type: ss
 - cipher: rc4-md5
-  name: China_Shenzhen_ss_1010
+  name: China_None_ss_1010
   password: efanccyun
   plugin: obfs
   plugin-opts:
@@ -326,7 +326,7 @@ proxies:
   tfo: false
   type: ss
 - cipher: rc4-md5
-  name: China_Shenzhen_ss_1018
+  name: China_None_ss_1018
   password: efanccyun
   plugin: obfs
   plugin-opts:
@@ -392,6 +392,45 @@ proxies:
   tls: false
   type: vmess
   uuid: 8a9150bc-b9c8-40ac-be83-aaec45176a81
+- name: Costa Rica_None_trojan_1025
+  network: ws
+  password: slch2024
+  port: 2096
+  server: 190.93.247.195
+  skip-cert-verify: false
+  sni: ocost-dy.wmlefl.cc
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: ocost-dy.wmlefl.cc
+    path: /Telegram🇨🇳
+- name: Russia_None_trojan_1026
+  network: ws
+  password: slch2024
+  port: 2096
+  server: 194.53.53.195
+  skip-cert-verify: false
+  sni: ocost-dy.wmlefl.cc
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: ocost-dy.wmlefl.cc
+    path: /Telegram🇨🇳
+- name: United States_None_trojan_1027
+  network: ws
+  password: slch2024
+  port: 2096
+  server: 209.94.90.195
+  skip-cert-verify: false
+  sni: ocost-dy.wmlefl.cc
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: ocost-dy.wmlefl.cc
+    path: /Telegram🇨🇳
 - name: The Netherlands_Amsterdam_hy_0
   type: hysteria
   server: 109.104.153.91
@@ -534,7 +573,7 @@ proxy-groups:
   - China_None_trojan_107
   - Taiwan_Taichung_ss_108
   - Taiwan_New Taipei_ss_109
-  - China_Shenzhen_ss_1010
+  - China_None_ss_1010
   - China_None_trojan_1011
   - Japan_Tokyo_ss_1012
   - China_None_trojan_1013
@@ -542,13 +581,16 @@ proxy-groups:
   - China_None_trojan_1015
   - China_None_vmess_1016
   - China_None_ss_1017
-  - China_Shenzhen_ss_1018
+  - China_None_ss_1018
   - China_None_trojan_1019
   - China_None_trojan_1020
   - Hong Kong_None_vmess_1021
   - China_None_vmess_1022
   - Hong Kong_Hong Kong_vmess_1023
   - Japan_Tokyo_vmess_1024
+  - Costa Rica_None_trojan_1025
+  - Russia_None_trojan_1026
+  - United States_None_trojan_1027
   - The Netherlands_Amsterdam_hy_0
   - The Netherlands_Amsterdam_hy_1
   - The Netherlands_Amsterdam_hy_2
@@ -585,7 +627,7 @@ proxy-groups:
   - China_None_trojan_107
   - Taiwan_Taichung_ss_108
   - Taiwan_New Taipei_ss_109
-  - China_Shenzhen_ss_1010
+  - China_None_ss_1010
   - China_None_trojan_1011
   - Japan_Tokyo_ss_1012
   - China_None_trojan_1013
@@ -593,13 +635,16 @@ proxy-groups:
   - China_None_trojan_1015
   - China_None_vmess_1016
   - China_None_ss_1017
-  - China_Shenzhen_ss_1018
+  - China_None_ss_1018
   - China_None_trojan_1019
   - China_None_trojan_1020
   - Hong Kong_None_vmess_1021
   - China_None_vmess_1022
   - Hong Kong_Hong Kong_vmess_1023
   - Japan_Tokyo_vmess_1024
+  - Costa Rica_None_trojan_1025
+  - Russia_None_trojan_1026
+  - United States_None_trojan_1027
   - The Netherlands_Amsterdam_hy_0
   - The Netherlands_Amsterdam_hy_1
   - The Netherlands_Amsterdam_hy_2
