@@ -390,27 +390,19 @@ proxies:
   tls: false
   type: vmess
   uuid: c53d41d1-7d56-43ce-9994-408780c6476a
-- name: The Netherlands_Rotterdam_trojan_1026
+- name: Singapore_None_trojan_1026
   network: ws
-  password: XWnVX2ASHl
-  port: 37757
-  server: 5.255.103.217
-  skip-cert-verify: false
-  sni: moshali.arshiacomplus.dpdns.org
+  password: wb6368
+  port: 2087
+  server: 92.243.75.49
+  skip-cert-verify: true
+  sni: hsdgbuys.pages.dev
   type: trojan
   udp: true
   ws-opts:
     headers:
-      Host: moshali.arshiacomplus.dpdns.org
-    path: /moshaliplus
-- name: Singapore_None_trojan_1027
-  password: 9e76767d-4bfa-4f04-a800-42e2f63afed2
-  port: 443
-  server: de.viefast.net
-  skip-cert-verify: true
-  sni: csapp.catch.net.tw
-  type: trojan
-  udp: true
+      Host: hsdgbuys.pages.dev
+    path: /
 - name: The Netherlands_Amsterdam_hy_0
   type: hysteria
   server: 109.104.153.91
@@ -568,8 +560,7 @@ proxy-groups:
   - Hong Kong_Hong Kong_vmess_1023
   - Japan_Tokyo_vmess_1024
   - United States_Dallas_vmess_1025
-  - The Netherlands_Rotterdam_trojan_1026
-  - Singapore_None_trojan_1027
+  - Singapore_None_trojan_1026
   - The Netherlands_Amsterdam_hy_0
   - The Netherlands_Amsterdam_hy_1
   - The Netherlands_Amsterdam_hy_2
@@ -621,8 +612,7 @@ proxy-groups:
   - Hong Kong_Hong Kong_vmess_1023
   - Japan_Tokyo_vmess_1024
   - United States_Dallas_vmess_1025
-  - The Netherlands_Rotterdam_trojan_1026
-  - Singapore_None_trojan_1027
+  - Singapore_None_trojan_1026
   - The Netherlands_Amsterdam_hy_0
   - The Netherlands_Amsterdam_hy_1
   - The Netherlands_Amsterdam_hy_2
