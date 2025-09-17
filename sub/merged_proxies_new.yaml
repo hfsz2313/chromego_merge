@@ -229,7 +229,7 @@ proxies:
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - cipher: rc4-md5
-  name: China_Shenzhen_ss_109
+  name: China_None_ss_109
   password: efanccyun
   plugin: obfs
   plugin-opts:
@@ -318,7 +318,7 @@ proxies:
   sni: 23.45.86.28
   type: trojan
 - cipher: rc4-md5
-  name: China_Shenzhen_ss_1018
+  name: China_None_ss_1018
   password: efanccyun
   plugin: obfs
   plugin-opts:
@@ -403,12 +403,12 @@ proxies:
   tls: false
   type: vmess
   uuid: c53d41d1-7d56-43ce-9994-408780c6476a
-- name: China_None_trojan_1027
-  password: 2fd0d127-266d-4d0b-b453-f94659a132fc
-  port: 12000
-  server: 106.75.134.1
+- name: Singapore_None_trojan_1027
+  password: 9e76767d-4bfa-4f04-a800-42e2f63afed2
+  port: 443
+  server: de.viefast.net
   skip-cert-verify: true
-  sni: aliyun.com
+  sni: csapp.catch.net.tw
   type: trojan
   udp: true
 - name: The Netherlands_Amsterdam_hy_0
@@ -551,7 +551,7 @@ proxy-groups:
   - United States_None_ss_106
   - China_None_trojan_107
   - China_None_vmess_108
-  - China_Shenzhen_ss_109
+  - China_None_ss_109
   - Japan_Tokyo_ss_1010
   - Japan_None_trojan_1011
   - China_None_trojan_1012
@@ -560,7 +560,7 @@ proxy-groups:
   - Japan_Tokyo_trojan_1015
   - China_None_vmess_1016
   - China_None_trojan_1017
-  - China_Shenzhen_ss_1018
+  - China_None_ss_1018
   - United States_Dallas_vmess_1019
   - Japan_Tokyo_trojan_1020
   - Vietnam_None_ss_1021
@@ -569,7 +569,7 @@ proxy-groups:
   - Hong Kong_Hong Kong_vmess_1024
   - Japan_Tokyo_vmess_1025
   - United States_Dallas_vmess_1026
-  - China_None_trojan_1027
+  - Singapore_None_trojan_1027
   - The Netherlands_Amsterdam_hy_0
   - The Netherlands_Amsterdam_hy_1
   - The Netherlands_Amsterdam_hy_2
@@ -604,7 +604,7 @@ proxy-groups:
   - United States_None_ss_106
   - China_None_trojan_107
   - China_None_vmess_108
-  - China_Shenzhen_ss_109
+  - China_None_ss_109
   - Japan_Tokyo_ss_1010
   - Japan_None_trojan_1011
   - China_None_trojan_1012
@@ -613,7 +613,7 @@ proxy-groups:
   - Japan_Tokyo_trojan_1015
   - China_None_vmess_1016
   - China_None_trojan_1017
-  - China_Shenzhen_ss_1018
+  - China_None_ss_1018
   - United States_Dallas_vmess_1019
   - Japan_Tokyo_trojan_1020
   - Vietnam_None_ss_1021
@@ -622,7 +622,7 @@ proxy-groups:
   - Hong Kong_Hong Kong_vmess_1024
   - Japan_Tokyo_vmess_1025
   - United States_Dallas_vmess_1026
-  - China_None_trojan_1027
+  - Singapore_None_trojan_1027
   - The Netherlands_Amsterdam_hy_0
   - The Netherlands_Amsterdam_hy_1
   - The Netherlands_Amsterdam_hy_2
