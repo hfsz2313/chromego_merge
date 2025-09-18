@@ -229,7 +229,7 @@ proxies:
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - cipher: rc4-md5
-  name: China_None_ss_109
+  name: China_Guangzhou_ss_109
   password: efanccyun
   plugin: obfs
   plugin-opts:
@@ -310,7 +310,7 @@ proxies:
       Host: baidu.com
     path: /oooo
 - cipher: rc4-md5
-  name: China_None_ss_1017
+  name: China_Guangzhou_ss_1017
   password: efanccyun
   plugin: obfs
   plugin-opts:
@@ -383,14 +383,6 @@ proxies:
   tls: false
   type: vmess
   uuid: 79f0cb97-d631-493e-84a1-82a0576fa952
-- name: The Netherlands_Meppel_trojan_1025
-  password: installshield
-  port: 8443
-  server: 38.180.249.177
-  skip-cert-verify: true
-  sni: 38.180.249.177
-  type: trojan
-  udp: true
 - name: The Netherlands_Amsterdam_hy_0
   type: hysteria
   server: 109.104.153.91
@@ -531,7 +523,7 @@ proxy-groups:
   - Hong Kong_None_ss_106
   - China_None_trojan_107
   - China_None_vmess_108
-  - China_None_ss_109
+  - China_Guangzhou_ss_109
   - Japan_Tokyo_ss_1010
   - Japan_None_trojan_1011
   - China_None_trojan_1012
@@ -539,7 +531,7 @@ proxy-groups:
   - China_None_trojan_1014
   - China_None_trojan_1015
   - China_None_vmess_1016
-  - China_None_ss_1017
+  - China_Guangzhou_ss_1017
   - Japan_None_trojan_1018
   - Japan_None_trojan_1019
   - Vietnam_None_ss_1020
@@ -547,7 +539,6 @@ proxy-groups:
   - China_None_vmess_1022
   - Hong Kong_Hong Kong_vmess_1023
   - Japan_Tokyo_vmess_1024
-  - The Netherlands_Meppel_trojan_1025
   - The Netherlands_Amsterdam_hy_0
   - The Netherlands_Amsterdam_hy_1
   - The Netherlands_Amsterdam_hy_2
@@ -582,7 +573,7 @@ proxy-groups:
   - Hong Kong_None_ss_106
   - China_None_trojan_107
   - China_None_vmess_108
-  - China_None_ss_109
+  - China_Guangzhou_ss_109
   - Japan_Tokyo_ss_1010
   - Japan_None_trojan_1011
   - China_None_trojan_1012
@@ -590,7 +581,7 @@ proxy-groups:
   - China_None_trojan_1014
   - China_None_trojan_1015
   - China_None_vmess_1016
-  - China_None_ss_1017
+  - China_Guangzhou_ss_1017
   - Japan_None_trojan_1018
   - Japan_None_trojan_1019
   - Vietnam_None_ss_1020
@@ -598,7 +589,6 @@ proxy-groups:
   - China_None_vmess_1022
   - Hong Kong_Hong Kong_vmess_1023
   - Japan_Tokyo_vmess_1024
-  - The Netherlands_Meppel_trojan_1025
   - The Netherlands_Amsterdam_hy_0
   - The Netherlands_Amsterdam_hy_1
   - The Netherlands_Amsterdam_hy_2
