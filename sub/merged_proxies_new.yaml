@@ -229,7 +229,7 @@ proxies:
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - cipher: rc4-md5
-  name: China_None_ss_109
+  name: China_Shenzhen_ss_109
   password: efanccyun
   plugin: obfs
   plugin-opts:
@@ -310,7 +310,7 @@ proxies:
       Host: baidu.com
     path: /oooo
 - cipher: rc4-md5
-  name: China_None_ss_1017
+  name: China_Shenzhen_ss_1017
   password: efanccyun
   plugin: obfs
   plugin-opts:
@@ -383,14 +383,72 @@ proxies:
   tls: false
   type: vmess
   uuid: af07bf42-c942-4085-a7cb-80f9bed88776
-- name: Singapore_None_trojan_1025
+- name: China_Guangzhou_trojan_1025
+  password: 453121aa-6c1d-33ed-a175-cb46aa8f22f0
+  port: 13028
+  server: suningyunyou.judelvin.com
+  skip-cert-verify: false
+  sni: 3t49hrhac.qqtoup81.top
+  type: trojan
+  udp: true
+- name: China_Guangzhou_trojan_1026
+  password: 453121aa-6c1d-33ed-a175-cb46aa8f22f0
+  port: 13033
+  server: suningyunyou.judelvin.com
+  skip-cert-verify: false
+  sni: hg2983hrfx.qqtoup81.top
+  type: trojan
+  udp: true
+- name: Hong Kong_Hong Kong_trojan_1027
+  password: 1640ef52-2db0-44ab-b3f3-8690b762ebc9
+  port: 12000
+  server: 165.154.112.107
+  skip-cert-verify: true
+  sni: aliyun.com
+  type: trojan
+  udp: true
+- name: Japan_Osaka_trojan_1028
+  network: ws
+  password: juzi
+  port: 22735
+  server: 140.83.57.183
+  skip-cert-verify: true
+  sni: juzi8186-sr1.pages.dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: juzi8186-sr1.pages.dev
+    path: /?ed=2560
+- name: Japan_Tokyo_trojan_1029
   password: 9e76767d-4bfa-4f04-a800-42e2f63afed2
   port: 443
-  server: www.tiktok.com.jp2.viefast.net
+  server: 160.16.104.143
   skip-cert-verify: true
   sni: www.linemo.jp
   type: trojan
   udp: true
+- name: The Netherlands_Meppel_trojan_1030
+  password: installshield
+  port: 8443
+  server: 38.180.249.177
+  skip-cert-verify: true
+  sni: wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc
+  type: trojan
+  udp: true
+- name: United States_Los Angeles_trojan_1031
+  network: ws
+  password: juzi
+  port: 443
+  server: 154.29.155.249
+  skip-cert-verify: true
+  sni: juzi8186-sr1.pages.dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: juzi8186-sr1.pages.dev
+    path: /?ed=2560
 - name: The Netherlands_Amsterdam_hy_0
   type: hysteria
   server: 109.104.153.91
@@ -531,7 +589,7 @@ proxy-groups:
   - United States_None_ss_106
   - Japan_Tokyo_trojan_107
   - China_None_vmess_108
-  - China_None_ss_109
+  - China_Shenzhen_ss_109
   - Japan_Tokyo_ss_1010
   - Japan_Tokyo_trojan_1011
   - China_None_trojan_1012
@@ -539,7 +597,7 @@ proxy-groups:
   - China_None_trojan_1014
   - China_None_trojan_1015
   - China_None_vmess_1016
-  - China_None_ss_1017
+  - China_Shenzhen_ss_1017
   - Japan_None_trojan_1018
   - Japan_None_trojan_1019
   - Vietnam_None_ss_1020
@@ -547,7 +605,13 @@ proxy-groups:
   - China_None_vmess_1022
   - Hong Kong_Hong Kong_vmess_1023
   - Japan_Tokyo_vmess_1024
-  - Singapore_None_trojan_1025
+  - China_Guangzhou_trojan_1025
+  - China_Guangzhou_trojan_1026
+  - Hong Kong_Hong Kong_trojan_1027
+  - Japan_Osaka_trojan_1028
+  - Japan_Tokyo_trojan_1029
+  - The Netherlands_Meppel_trojan_1030
+  - United States_Los Angeles_trojan_1031
   - The Netherlands_Amsterdam_hy_0
   - The Netherlands_Amsterdam_hy_1
   - The Netherlands_Amsterdam_hy_2
@@ -582,7 +646,7 @@ proxy-groups:
   - United States_None_ss_106
   - Japan_Tokyo_trojan_107
   - China_None_vmess_108
-  - China_None_ss_109
+  - China_Shenzhen_ss_109
   - Japan_Tokyo_ss_1010
   - Japan_Tokyo_trojan_1011
   - China_None_trojan_1012
@@ -590,7 +654,7 @@ proxy-groups:
   - China_None_trojan_1014
   - China_None_trojan_1015
   - China_None_vmess_1016
-  - China_None_ss_1017
+  - China_Shenzhen_ss_1017
   - Japan_None_trojan_1018
   - Japan_None_trojan_1019
   - Vietnam_None_ss_1020
@@ -598,7 +662,13 @@ proxy-groups:
   - China_None_vmess_1022
   - Hong Kong_Hong Kong_vmess_1023
   - Japan_Tokyo_vmess_1024
-  - Singapore_None_trojan_1025
+  - China_Guangzhou_trojan_1025
+  - China_Guangzhou_trojan_1026
+  - Hong Kong_Hong Kong_trojan_1027
+  - Japan_Osaka_trojan_1028
+  - Japan_Tokyo_trojan_1029
+  - The Netherlands_Meppel_trojan_1030
+  - United States_Los Angeles_trojan_1031
   - The Netherlands_Amsterdam_hy_0
   - The Netherlands_Amsterdam_hy_1
   - The Netherlands_Amsterdam_hy_2
