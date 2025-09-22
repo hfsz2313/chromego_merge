@@ -62,6 +62,18 @@ proxies:
   reduce-rtt: true
   udp-relay-mode: native
   congestion-controller: bbr
+- name: Unknown_hysteria2_31
+  type: hysteria2
+  server: 2001:bc8:32d7:302::17
+  port: 20088
+  password: dongtaiwang.com
+  sni: apple.com
+  skip-cert-verify: true
+  alpn:
+  - h3
+  protocol: udp
+  up: 11 Mbps
+  down: 55 Mbps
 - name: Unknown_tuic_41
   server: 2001:bc8:32d7:302::16
   port: 34997
@@ -114,6 +126,18 @@ proxies:
 - name: France_Paris_hysteria_81
   type: hysteria
   server: 62.210.127.217
+  port: 50011
+  auth-str: dongtaiwang.com
+  sni: apple.com
+  skip-cert-verify: true
+  alpn:
+  - h3
+  protocol: udp
+  up: 11 Mbps
+  down: 55 Mbps
+- name: Unknown_hysteria_91
+  type: hysteria
+  server: 2001:bc8:32d7:158::4
   port: 50011
   auth-str: dongtaiwang.com
   sni: apple.com
@@ -482,6 +506,14 @@ proxies:
   fast-open: true
   sni: apple.com
   skip-cert-verify: true
+- name: United States_Los Angeles_hy2_2
+  type: hysteria2
+  server: 104.168.10.176
+  port: 35205
+  password: dongtaiwang.com
+  fast-open: true
+  sni: apple.com
+  skip-cert-verify: true
 - name: United States_Los Angeles_hy2_3
   type: hysteria2
   server: 104.168.10.176
@@ -527,11 +559,13 @@ proxy-groups:
   - Unknown_hysteria2_01
   - Unknown_hysteria2_11
   - Unknown_tuic_21
+  - Unknown_hysteria2_31
   - Unknown_tuic_41
   - Unknown_hysteria2_51
   - Unknown_hysteria_61
   - France_Paris_hysteria_71
   - France_Paris_hysteria_81
+  - Unknown_hysteria_91
   - Germany_Frankfurt am Main_ss_101
   - China_None_vmess_102
   - China_None_ss_103
@@ -569,6 +603,7 @@ proxy-groups:
   - The Netherlands_Amsterdam_hy_3
   - United States_Los Angeles_hy2_0
   - United States_Los Angeles_hy2_1
+  - United States_Los Angeles_hy2_2
   - United States_Los Angeles_hy2_3
   - Unknown_reality_0
   - Unknown_reality_3
@@ -581,11 +616,13 @@ proxy-groups:
   - Unknown_hysteria2_01
   - Unknown_hysteria2_11
   - Unknown_tuic_21
+  - Unknown_hysteria2_31
   - Unknown_tuic_41
   - Unknown_hysteria2_51
   - Unknown_hysteria_61
   - France_Paris_hysteria_71
   - France_Paris_hysteria_81
+  - Unknown_hysteria_91
   - Germany_Frankfurt am Main_ss_101
   - China_None_vmess_102
   - China_None_ss_103
@@ -623,6 +660,7 @@ proxy-groups:
   - The Netherlands_Amsterdam_hy_3
   - United States_Los Angeles_hy2_0
   - United States_Los Angeles_hy2_1
+  - United States_Los Angeles_hy2_2
   - United States_Los Angeles_hy2_3
   - Unknown_reality_0
   - Unknown_reality_3
