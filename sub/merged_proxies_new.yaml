@@ -212,7 +212,7 @@ proxies:
   sni: www.nintendogames.net
   type: trojan
 - cipher: rc4-md5
-  name: China_None_ss_107
+  name: China_Guangzhou_ss_107
   password: efanccyun
   plugin: obfs
   plugin-opts:
@@ -323,14 +323,6 @@ proxies:
   tls: false
   type: vmess
   uuid: 1cc84891-1657-4f71-97d0-287df565820e
-- name: China_None_trojan_1019
-  password: 2fd0d127-266d-4d0b-b453-f94659a132fc
-  port: 12000
-  server: 106.75.134.1
-  skip-cert-verify: true
-  sni: aliyun.com
-  type: trojan
-  udp: true
 - name: The Netherlands_Amsterdam_hy_0
   type: hysteria
   server: 109.104.153.91
@@ -437,7 +429,7 @@ proxy-groups:
   - Hong Kong_None_vmess_104
   - Hong Kong_San Po Kong_trojan_105
   - China_None_trojan_106
-  - China_None_ss_107
+  - China_Guangzhou_ss_107
   - Japan_Tokyo_trojan_108
   - Japan_Tokyo_trojan_109
   - Japan_Tokyo_trojan_1010
@@ -449,7 +441,6 @@ proxy-groups:
   - Hong Kong_None_vmess_1016
   - Hong Kong_Hong Kong_vmess_1017
   - Japan_Tokyo_vmess_1018
-  - China_None_trojan_1019
   - The Netherlands_Amsterdam_hy_0
   - The Netherlands_Amsterdam_hy_1
   - The Netherlands_Amsterdam_hy_2
@@ -478,7 +469,7 @@ proxy-groups:
   - Hong Kong_None_vmess_104
   - Hong Kong_San Po Kong_trojan_105
   - China_None_trojan_106
-  - China_None_ss_107
+  - China_Guangzhou_ss_107
   - Japan_Tokyo_trojan_108
   - Japan_Tokyo_trojan_109
   - Japan_Tokyo_trojan_1010
@@ -490,7 +481,6 @@ proxy-groups:
   - Hong Kong_None_vmess_1016
   - Hong Kong_Hong Kong_vmess_1017
   - Japan_Tokyo_vmess_1018
-  - China_None_trojan_1019
   - The Netherlands_Amsterdam_hy_0
   - The Netherlands_Amsterdam_hy_1
   - The Netherlands_Amsterdam_hy_2
