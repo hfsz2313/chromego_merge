@@ -318,14 +318,6 @@ proxies:
   tls: false
   type: vmess
   uuid: bfcb103f-2133-4965-8684-6b4c8ef7a774
-- name: Hong Kong_Hong Kong_trojan_1020
-  password: e531d1bc-a56f-4e1a-a295-1442369a19c1
-  port: 26004
-  server: e4d7a1c2f3b80976a5e2c1d4b3f0a987.1kmei.com
-  skip-cert-verify: true
-  sni: www.bilibili.com
-  type: trojan
-  udp: true
 - name: The Netherlands_Amsterdam_hy_0
   type: hysteria
   server: 109.104.153.91
@@ -445,7 +437,6 @@ proxy-groups:
   - France_None_ss_1017
   - Singapore_None_vmess_1018
   - Singapore_None_vmess_1019
-  - Hong Kong_Hong Kong_trojan_1020
   - The Netherlands_Amsterdam_hy_0
   - The Netherlands_Amsterdam_hy_1
   - The Netherlands_Amsterdam_hy_2
@@ -487,7 +478,6 @@ proxy-groups:
   - France_None_ss_1017
   - Singapore_None_vmess_1018
   - Singapore_None_vmess_1019
-  - Hong Kong_Hong Kong_trojan_1020
   - The Netherlands_Amsterdam_hy_0
   - The Netherlands_Amsterdam_hy_1
   - The Netherlands_Amsterdam_hy_2
