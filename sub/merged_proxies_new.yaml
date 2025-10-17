@@ -339,6 +339,19 @@ proxies:
   tls: false
   type: vmess
   uuid: 230938d9-ae9d-49e7-b3cb-9f44168f89e8
+- name: United States_None_trojan_1021
+  network: ws
+  password: d0728e94-82c2-456b-b5d4-eeab540599df
+  port: 443
+  server: 172.67.192.215
+  skip-cert-verify: false
+  sni: joss.krikkrik.xyz
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: joss.krikkrik.xyz
+    path: /Free-VPN-CF-Geo-Project/AE5
 - name: The Netherlands_Amsterdam_hy_0
   type: hysteria
   server: 109.104.153.91
@@ -459,6 +472,7 @@ proxy-groups:
   - Japan_Tokyo_trojan_1018
   - Vietnam_None_ss_1019
   - Hong Kong_None_vmess_1020
+  - United States_None_trojan_1021
   - The Netherlands_Amsterdam_hy_0
   - The Netherlands_Amsterdam_hy_1
   - The Netherlands_Amsterdam_hy_2
@@ -501,6 +515,7 @@ proxy-groups:
   - Japan_Tokyo_trojan_1018
   - Vietnam_None_ss_1019
   - Hong Kong_None_vmess_1020
+  - United States_None_trojan_1021
   - The Netherlands_Amsterdam_hy_0
   - The Netherlands_Amsterdam_hy_1
   - The Netherlands_Amsterdam_hy_2
