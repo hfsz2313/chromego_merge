@@ -210,6 +210,7 @@ proxies:
   server: 36.150.215.138
   skip-cert-verify: true
   type: trojan
+  udp: true
 - name: China_None_trojan_107
   network: tcp
   password: BxceQaOe
@@ -295,7 +296,6 @@ proxies:
   server: 36.156.102.115
   skip-cert-verify: true
   type: trojan
-  udp: true
 - alterId: 0
   cipher: auto
   name: China_None_vmess_1017
@@ -326,13 +326,6 @@ proxies:
   tls: false
   type: vmess
   uuid: fd49381f-9fd8-4403-8698-48331a4d775d
-- name: China_None_trojan_1020
-  password: BxceQaOe
-  port: 811
-  server: 36.151.251.18
-  skip-cert-verify: true
-  type: trojan
-  udp: true
 - name: The Netherlands_Amsterdam_hy_0
   type: hysteria
   server: 109.104.153.91
@@ -452,7 +445,6 @@ proxy-groups:
   - China_None_vmess_1017
   - Hong Kong_None_vmess_1018
   - China_None_vmess_1019
-  - China_None_trojan_1020
   - The Netherlands_Amsterdam_hy_0
   - The Netherlands_Amsterdam_hy_1
   - The Netherlands_Amsterdam_hy_2
@@ -494,7 +486,6 @@ proxy-groups:
   - China_None_vmess_1017
   - Hong Kong_None_vmess_1018
   - China_None_vmess_1019
-  - China_None_trojan_1020
   - The Netherlands_Amsterdam_hy_0
   - The Netherlands_Amsterdam_hy_1
   - The Netherlands_Amsterdam_hy_2
