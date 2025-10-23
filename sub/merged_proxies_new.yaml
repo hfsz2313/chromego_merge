@@ -326,14 +326,19 @@ proxies:
   server: lazy.rsqpq.cn
   skip-cert-verify: true
   type: trojan
-- name: China_None_trojan_1023
-  password: BxceQaOe
-  port: 4451
-  server: 36.150.215.138
-  skip-cert-verify: true
-  sni: 36.150.215.138
+- name: United States_None_trojan_1023
+  network: ws
+  password: T@_WvT8Ho@LW%w_,
+  port: 2053
+  server: nop-55q.pages.dev
+  skip-cert-verify: false
+  sni: NOp-55q.pAgEs.dEv
   type: trojan
   udp: true
+  ws-opts:
+    headers:
+      Host: NOp-55q.pAgEs.dEv
+    path: /trGPZDfetEwuO25SAs
 - name: The Netherlands_Amsterdam_hy_0
   type: hysteria
   server: 109.104.153.91
@@ -456,7 +461,7 @@ proxy-groups:
   - Bangladesh_None_trojan_1020
   - Bangladesh_None_trojan_1021
   - Bangladesh_None_trojan_1022
-  - China_None_trojan_1023
+  - United States_None_trojan_1023
   - The Netherlands_Amsterdam_hy_0
   - The Netherlands_Amsterdam_hy_1
   - The Netherlands_Amsterdam_hy_2
@@ -501,7 +506,7 @@ proxy-groups:
   - Bangladesh_None_trojan_1020
   - Bangladesh_None_trojan_1021
   - Bangladesh_None_trojan_1022
-  - China_None_trojan_1023
+  - United States_None_trojan_1023
   - The Netherlands_Amsterdam_hy_0
   - The Netherlands_Amsterdam_hy_1
   - The Netherlands_Amsterdam_hy_2
