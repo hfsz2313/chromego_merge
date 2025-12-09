@@ -313,14 +313,6 @@ proxies:
   tls: false
   type: vmess
   uuid: 40290609-2743-4d85-c9c3-4c72dd151b9f
-- name: Hong Kong_Central_trojan_1021
-  password: BxceQaOe
-  port: 443
-  server: 58.152.30.120
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
-  udp: true
 - name: Unknown_reality_0
   type: vless
   server: 2001:bc8:32d7:302::13
@@ -385,7 +377,6 @@ proxy-groups:
   - Vietnam_None_ss_1018
   - Hong Kong_Tuen Mun_vmess_1019
   - Hong Kong_Hong Kong_vmess_1020
-  - Hong Kong_Central_trojan_1021
   - Unknown_reality_0
   - Unknown_reality_3
 - name: 自动选择
@@ -424,7 +415,6 @@ proxy-groups:
   - Vietnam_None_ss_1018
   - Hong Kong_Tuen Mun_vmess_1019
   - Hong Kong_Hong Kong_vmess_1020
-  - Hong Kong_Central_trojan_1021
   - Unknown_reality_0
   - Unknown_reality_3
 rules:
