@@ -155,7 +155,7 @@ proxies:
   type: ss
 - alterId: 2
   cipher: auto
-  name: Hong Kong_Tuen Mun_vmess_102
+  name: Hong Kong_Central_vmess_102
   port: 30807
   server: v10.hdacd.com
   skip-cert-verify: false
@@ -184,6 +184,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
+  udp: true
 - name: Hong Kong_Kowloon_trojan_105
   network: tcp
   password: BxceQaOe
@@ -210,7 +211,7 @@ proxies:
   type: trojan
 - alterId: 2
   cipher: auto
-  name: Hong Kong_Central_vmess_108
+  name: Hong Kong_Sha Tin Wai_vmess_108
   network: ws
   port: '80'
   server: cfa9c38f-t6uv40-ta5nd4-e06r.hk3.p5pv.com
@@ -309,7 +310,7 @@ proxies:
   type: ss
 - alterId: 2
   cipher: auto
-  name: Hong Kong_Tuen Mun_vmess_1020
+  name: Hong Kong_Central_vmess_1020
   network: tcp
   port: '30807'
   server: v10.hdacd.com
@@ -362,13 +363,13 @@ proxy-groups:
   - Unknown_hysteria_81
   - Unknown_hysteria_91
   - United States_None_ss_101
-  - Hong Kong_Tuen Mun_vmess_102
+  - Hong Kong_Central_vmess_102
   - Hong Kong_None_ss_103
   - Hong Kong_Sheung Shui_trojan_104
   - Hong Kong_Kowloon_trojan_105
   - Hong Kong_Sai Wan_trojan_106
   - China_Guangzhou_trojan_107
-  - Hong Kong_Central_vmess_108
+  - Hong Kong_Sha Tin Wai_vmess_108
   - Japan_Tokyo_trojan_109
   - Japan_Tokyo_trojan_1010
   - Japan_Tokyo_trojan_1011
@@ -380,7 +381,7 @@ proxy-groups:
   - Japan_None_trojan_1017
   - Japan_Tokyo_trojan_1018
   - Vietnam_None_ss_1019
-  - Hong Kong_Tuen Mun_vmess_1020
+  - Hong Kong_Central_vmess_1020
   - Unknown_reality_0
   - Unknown_reality_3
 - name: 自动选择
@@ -400,13 +401,13 @@ proxy-groups:
   - Unknown_hysteria_81
   - Unknown_hysteria_91
   - United States_None_ss_101
-  - Hong Kong_Tuen Mun_vmess_102
+  - Hong Kong_Central_vmess_102
   - Hong Kong_None_ss_103
   - Hong Kong_Sheung Shui_trojan_104
   - Hong Kong_Kowloon_trojan_105
   - Hong Kong_Sai Wan_trojan_106
   - China_Guangzhou_trojan_107
-  - Hong Kong_Central_vmess_108
+  - Hong Kong_Sha Tin Wai_vmess_108
   - Japan_Tokyo_trojan_109
   - Japan_Tokyo_trojan_1010
   - Japan_Tokyo_trojan_1011
@@ -418,7 +419,7 @@ proxy-groups:
   - Japan_None_trojan_1017
   - Japan_Tokyo_trojan_1018
   - Vietnam_None_ss_1019
-  - Hong Kong_Tuen Mun_vmess_1020
+  - Hong Kong_Central_vmess_1020
   - Unknown_reality_0
   - Unknown_reality_3
 rules:
