@@ -310,14 +310,6 @@ proxies:
   tls: false
   type: vmess
   uuid: 9018c068-87ee-4c17-848a-540d36a0ab7b
-- name: Hong Kong_Sheung Shui_trojan_1020
-  password: 76d630f2af6619c4a5de0ef953df3c6a
-  port: 443
-  server: 58.152.110.82
-  skip-cert-verify: false
-  sni: www.nintendogames.net
-  type: trojan
-  udp: true
 - name: Unknown_reality_0
   type: vless
   server: 2001:bc8:32d7:302::13
@@ -381,7 +373,6 @@ proxy-groups:
   - None_None_vmess_1017
   - Hong Kong_Central_vmess_1018
   - China_None_vmess_1019
-  - Hong Kong_Sheung Shui_trojan_1020
   - Unknown_reality_0
   - Unknown_reality_3
 - name: 自动选择
@@ -419,7 +410,6 @@ proxy-groups:
   - None_None_vmess_1017
   - Hong Kong_Central_vmess_1018
   - China_None_vmess_1019
-  - Hong Kong_Sheung Shui_trojan_1020
   - Unknown_reality_0
   - Unknown_reality_3
 rules:
