@@ -200,21 +200,6 @@ proxies:
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- name: Hong Kong_Central_trojan_1022
-  password: BxceQaOe
-  port: 443
-  server: 203.198.84.221
-  skip-cert-verify: true
-  sni: t.me/ripaojiedian
-  type: trojan
-  udp: true
-- name: United States_Dallas_trojan_1023
-  password: kkzh2prsyr2ik47as615
-  port: 57142
-  server: 64.94.95.118
-  skip-cert-verify: true
-  type: trojan
-  udp: true
 proxy-groups:
 - name: 节点选择
   type: select
@@ -242,8 +227,6 @@ proxy-groups:
   - Hong Kong_Yuen Long San Hui_vmess_1019
   - Japan_Osaka_trojan_1020
   - United Kingdom_None_vmess_1021
-  - Hong Kong_Central_trojan_1022
-  - United States_Dallas_trojan_1023
 - name: 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -271,8 +254,6 @@ proxy-groups:
   - Hong Kong_Yuen Long San Hui_vmess_1019
   - Japan_Osaka_trojan_1020
   - United Kingdom_None_vmess_1021
-  - Hong Kong_Central_trojan_1022
-  - United States_Dallas_trojan_1023
 rules:
 - DOMAIN,clash.razord.top,DIRECT
 - DOMAIN,yacd.haishan.me,DIRECT
