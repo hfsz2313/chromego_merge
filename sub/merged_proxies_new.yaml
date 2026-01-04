@@ -42,7 +42,7 @@ proxies:
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alterId: 2
   cipher: auto
-  name: Hong Kong_Central_vmess_103
+  name: Hong Kong_Sha Tin Wai_vmess_103
   network: ws
   port: '80'
   server: hkt.gotochinatown.net
@@ -186,12 +186,12 @@ proxies:
   ws-opts:
     headers:
       Host: snippets.kkii.eu.org
-    path: /Telegram🇨🇳WangCai2
-- name: Russia_Moscow Oblast_trojan_1020
+    path: /TelegramU0001F1E8U0001F1F3WangCai2
+- name: Germany_None_trojan_1020
   network: ws
   password: 554f139b-f31f-41c4-99f9-73d60647db26
-  port: 8443
-  server: 178.250.187.3
+  port: 443
+  server: 193.23.197.183
   skip-cert-verify: true
   sni: snippets.kkii.eu.org
   type: trojan
@@ -200,11 +200,11 @@ proxies:
     headers:
       Host: snippets.kkii.eu.org
     path: /Telegram🇨🇳WangCai2
-- name: Germany_None_trojan_1021
+- name: Russia_Moscow Oblast_trojan_1021
   network: ws
   password: 554f139b-f31f-41c4-99f9-73d60647db26
-  port: 443
-  server: 193.23.197.183
+  port: 8443
+  server: 178.250.187.3
   skip-cert-verify: true
   sni: snippets.kkii.eu.org
   type: trojan
@@ -252,72 +252,7 @@ proxies:
     headers:
       Host: snippets.kkii.eu.org
     path: /Telegram🇨🇳WangCai2
-- name: None_None_trojan_1025
-  network: ws
-  password: 5a2c16f9
-  port: 443
-  server: one.cf.cdn.hyli.xyz
-  skip-cert-verify: true
-  sni: snippets.kkii.eu.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: snippets.kkii.eu.org
-    path: /
-- name: None_None_trojan_1026
-  network: ws
-  password: 5a2c16f9
-  port: 443
-  server: 104.17.237.219
-  skip-cert-verify: true
-  sni: snippets.kkii.eu.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: snippets.kkii.eu.org
-    path: /
-- name: United States_None_trojan_1027
-  network: ws
-  password: 5a2c16f9
-  port: 443
-  server: 172.64.229.55
-  skip-cert-verify: true
-  sni: snippets.kkii.eu.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: snippets.kkii.eu.org
-    path: /
-- name: United States_None_trojan_1028
-  network: ws
-  password: 5a2c16f9
-  port: 2096
-  server: 135.84.73.238
-  skip-cert-verify: true
-  sni: snippets.kkii.eu.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: snippets.kkii.eu.org
-    path: /Telegram🇨🇳WangCai2
-- name: United States_None_trojan_1029
-  network: ws
-  password: 5a2c16f9
-  port: 443
-  server: cf.130519.xyz
-  skip-cert-verify: true
-  sni: snippets.kkii.eu.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: snippets.kkii.eu.org
-    path: /
-- name: United States_None_trojan_1030
+- name: United States_None_trojan_1025
   network: ws
   password: 5a2c16f9
   port: 2096
@@ -330,11 +265,11 @@ proxies:
     headers:
       Host: snippets.kkii.eu.org
     path: /TelegramU0001F1E8U0001F1F3WangCai2
-- name: Germany_Frankfurt am Main_trojan_1031
+- name: United States_None_trojan_1026
   network: ws
   password: 5a2c16f9
-  port: 2053
-  server: 199.119.137.77
+  port: 2096
+  server: 135.84.73.238
   skip-cert-verify: true
   sni: snippets.kkii.eu.org
   type: trojan
@@ -342,20 +277,7 @@ proxies:
   ws-opts:
     headers:
       Host: snippets.kkii.eu.org
-    path: /Telegram@V2rayAlpha
-- name: United States_None_trojan_1032
-  network: ws
-  password: 5a2c16f9
-  port: 443
-  server: 172.64.229.65
-  skip-cert-verify: true
-  sni: snippets.kkii.eu.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: snippets.kkii.eu.org
-    path: /
+    path: /Telegram🇨🇳WangCai2
 proxy-groups:
 - name: 节点选择
   type: select
@@ -364,7 +286,7 @@ proxy-groups:
   - DIRECT
   - United States_None_ss_101
   - Hong Kong_Central_vmess_102
-  - Hong Kong_Central_vmess_103
+  - Hong Kong_Sha Tin Wai_vmess_103
   - Hong Kong_Sheung Shui_trojan_104
   - Hong Kong_Sai Wan_trojan_105
   - Hong Kong_Sai Wan_trojan_106
@@ -381,19 +303,13 @@ proxy-groups:
   - Vietnam_None_ss_1017
   - Hong Kong_Central_vmess_1018
   - United Arab Emirates_None_trojan_1019
-  - Russia_Moscow Oblast_trojan_1020
-  - Germany_None_trojan_1021
+  - Germany_None_trojan_1020
+  - Russia_Moscow Oblast_trojan_1021
   - Curaçao_Willemstad_trojan_1022
   - Curaçao_Willemstad_trojan_1023
   - United States_None_trojan_1024
-  - None_None_trojan_1025
-  - None_None_trojan_1026
-  - United States_None_trojan_1027
-  - United States_None_trojan_1028
-  - United States_None_trojan_1029
-  - United States_None_trojan_1030
-  - Germany_Frankfurt am Main_trojan_1031
-  - United States_None_trojan_1032
+  - United States_None_trojan_1025
+  - United States_None_trojan_1026
 - name: 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -402,7 +318,7 @@ proxy-groups:
   proxies:
   - United States_None_ss_101
   - Hong Kong_Central_vmess_102
-  - Hong Kong_Central_vmess_103
+  - Hong Kong_Sha Tin Wai_vmess_103
   - Hong Kong_Sheung Shui_trojan_104
   - Hong Kong_Sai Wan_trojan_105
   - Hong Kong_Sai Wan_trojan_106
@@ -419,19 +335,13 @@ proxy-groups:
   - Vietnam_None_ss_1017
   - Hong Kong_Central_vmess_1018
   - United Arab Emirates_None_trojan_1019
-  - Russia_Moscow Oblast_trojan_1020
-  - Germany_None_trojan_1021
+  - Germany_None_trojan_1020
+  - Russia_Moscow Oblast_trojan_1021
   - Curaçao_Willemstad_trojan_1022
   - Curaçao_Willemstad_trojan_1023
   - United States_None_trojan_1024
-  - None_None_trojan_1025
-  - None_None_trojan_1026
-  - United States_None_trojan_1027
-  - United States_None_trojan_1028
-  - United States_None_trojan_1029
-  - United States_None_trojan_1030
-  - Germany_Frankfurt am Main_trojan_1031
-  - United States_None_trojan_1032
+  - United States_None_trojan_1025
+  - United States_None_trojan_1026
 rules:
 - DOMAIN,clash.razord.top,DIRECT
 - DOMAIN,yacd.haishan.me,DIRECT
