@@ -33,7 +33,7 @@ proxies:
   type: ss
 - alterId: 2
   cipher: auto
-  name: Hong Kong_Tuen Mun_vmess_102
+  name: Hong Kong_Central_vmess_102
   port: 30807
   server: v10.hdacd.com
   skip-cert-verify: false
@@ -42,7 +42,7 @@ proxies:
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alterId: 2
   cipher: auto
-  name: Hong Kong_Kowloon_vmess_103
+  name: Hong Kong_Wong Tai Sin_vmess_103
   network: ws
   port: '80'
   server: hkt.gotochinatown.net
@@ -157,7 +157,7 @@ proxies:
   type: ss
 - alterId: 2
   cipher: auto
-  name: Hong Kong_Tuen Mun_vmess_1017
+  name: Hong Kong_Central_vmess_1017
   network: tcp
   port: '30807'
   server: v10.hdacd.com
@@ -172,8 +172,8 @@ proxy-groups:
   - 自动选择
   - DIRECT
   - United States_None_ss_101
-  - Hong Kong_Tuen Mun_vmess_102
-  - Hong Kong_Kowloon_vmess_103
+  - Hong Kong_Central_vmess_102
+  - Hong Kong_Wong Tai Sin_vmess_103
   - Hong Kong_Kowloon_trojan_104
   - Hong Kong_Sai Wan_trojan_105
   - Japan_Tokyo_trojan_106
@@ -187,7 +187,7 @@ proxy-groups:
   - Hong Kong_None_trojan_1014
   - South Korea_Seongbuk-gu_ss_1015
   - Vietnam_None_ss_1016
-  - Hong Kong_Tuen Mun_vmess_1017
+  - Hong Kong_Central_vmess_1017
 - name: 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -195,8 +195,8 @@ proxy-groups:
   tolerance: 50
   proxies:
   - United States_None_ss_101
-  - Hong Kong_Tuen Mun_vmess_102
-  - Hong Kong_Kowloon_vmess_103
+  - Hong Kong_Central_vmess_102
+  - Hong Kong_Wong Tai Sin_vmess_103
   - Hong Kong_Kowloon_trojan_104
   - Hong Kong_Sai Wan_trojan_105
   - Japan_Tokyo_trojan_106
@@ -210,7 +210,7 @@ proxy-groups:
   - Hong Kong_None_trojan_1014
   - South Korea_Seongbuk-gu_ss_1015
   - Vietnam_None_ss_1016
-  - Hong Kong_Tuen Mun_vmess_1017
+  - Hong Kong_Central_vmess_1017
 rules:
 - DOMAIN,clash.razord.top,DIRECT
 - DOMAIN,yacd.haishan.me,DIRECT
