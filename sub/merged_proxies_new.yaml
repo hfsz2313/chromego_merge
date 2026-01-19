@@ -33,7 +33,7 @@ proxies:
   type: ss
 - alterId: 2
   cipher: auto
-  name: Hong Kong_Man Kok_vmess_102
+  name: Hong Kong_Central_vmess_102
   port: 30807
   server: v10.hdacd.com
   skip-cert-verify: false
@@ -144,7 +144,7 @@ proxies:
   type: ss
 - alterId: 2
   cipher: auto
-  name: Hong Kong_Man Kok_vmess_1016
+  name: Hong Kong_Central_vmess_1016
   network: tcp
   port: '30807'
   server: v10.hdacd.com
@@ -152,20 +152,27 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: United States_None_trojan_1017
-  password: 30077070-596e-48ea-9400-14c8ed07bd97
+- name: Hong Kong_Central_trojan_1017
+  password: 4843e94d205f3893f588255a591abe94
   port: 443
-  server: tuntro006.instconn.com
+  server: 58.152.18.124
   skip-cert-verify: true
-  sni: torontorm1.686911.xyz
+  sni: www.nintendogames.net
   type: trojan
   udp: true
-- name: Hong Kong_Sheung Shui_trojan_1018
-  password: BxceQaOe
+- name: Hong Kong_Central_trojan_1018
+  password: 4843e94d205f3893f588255a591abe94
   port: 443
-  server: 58.152.110.50
+  server: 58.152.18.124
   skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
+  type: trojan
+  udp: true
+- name: India_New Delhi_trojan_1019
+  password: M7v%w11Se*
+  port: 443
+  server: hyfuuf6.wsone.icu
+  skip-cert-verify: true
+  sni: hyfuuf6.wsone.icu
   type: trojan
   udp: true
 proxy-groups:
@@ -175,7 +182,7 @@ proxy-groups:
   - 自动选择
   - DIRECT
   - United States_None_ss_101
-  - Hong Kong_Man Kok_vmess_102
+  - Hong Kong_Central_vmess_102
   - Hong Kong_Central_trojan_103
   - Japan_Tokyo_trojan_104
   - Japan_Tokyo_trojan_105
@@ -189,9 +196,10 @@ proxy-groups:
   - United States_None_trojan_1013
   - Japan_Tokyo_trojan_1014
   - Vietnam_None_ss_1015
-  - Hong Kong_Man Kok_vmess_1016
-  - United States_None_trojan_1017
-  - Hong Kong_Sheung Shui_trojan_1018
+  - Hong Kong_Central_vmess_1016
+  - Hong Kong_Central_trojan_1017
+  - Hong Kong_Central_trojan_1018
+  - India_New Delhi_trojan_1019
 - name: 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -199,7 +207,7 @@ proxy-groups:
   tolerance: 50
   proxies:
   - United States_None_ss_101
-  - Hong Kong_Man Kok_vmess_102
+  - Hong Kong_Central_vmess_102
   - Hong Kong_Central_trojan_103
   - Japan_Tokyo_trojan_104
   - Japan_Tokyo_trojan_105
@@ -213,9 +221,10 @@ proxy-groups:
   - United States_None_trojan_1013
   - Japan_Tokyo_trojan_1014
   - Vietnam_None_ss_1015
-  - Hong Kong_Man Kok_vmess_1016
-  - United States_None_trojan_1017
-  - Hong Kong_Sheung Shui_trojan_1018
+  - Hong Kong_Central_vmess_1016
+  - Hong Kong_Central_trojan_1017
+  - Hong Kong_Central_trojan_1018
+  - India_New Delhi_trojan_1019
 rules:
 - DOMAIN,clash.razord.top,DIRECT
 - DOMAIN,yacd.haishan.me,DIRECT
