@@ -122,7 +122,7 @@ proxies:
   type: trojan
 - alterId: 2
   cipher: auto
-  name: Hong Kong_Sha Tin Wai_vmess_1013
+  name: Hong Kong_Central_vmess_1013
   network: ws
   port: '80'
   server: 6f5bbcfb-t8v340-ta7sek-1thts.hkt.gotochinatown.net
@@ -183,6 +183,21 @@ proxies:
   tls: false
   type: vmess
   uuid: 9f8c122d-5b86-4c19-af87-64f458a88223
+- name: China_None_trojan_1019
+  password: 685343f2-49e1-41f8-a7fc-5d0993afb6c6
+  port: 43533
+  server: faq1.lieerr222.cn
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: China_None_trojan_1020
+  password: 685343f2-49e1-41f8-a7fc-5d0993afb6c6
+  port: 43533
+  server: faq1.lieerr222.cn
+  skip-cert-verify: true
+  sni: faq1.lieerr222.cn
+  type: trojan
+  udp: true
 proxy-groups:
 - name: 节点选择
   type: select
@@ -201,12 +216,14 @@ proxy-groups:
   - Japan_Tokyo_trojan_1010
   - Japan_Tokyo_trojan_1011
   - Poland_None_trojan_1012
-  - Hong Kong_Sha Tin Wai_vmess_1013
+  - Hong Kong_Central_vmess_1013
   - China_None_vmess_1014
   - China_None_vmess_1015
   - Hong Kong_Central_vmess_1016
   - China_None_vmess_1017
   - China_None_vmess_1018
+  - China_None_trojan_1019
+  - China_None_trojan_1020
 - name: 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -225,12 +242,14 @@ proxy-groups:
   - Japan_Tokyo_trojan_1010
   - Japan_Tokyo_trojan_1011
   - Poland_None_trojan_1012
-  - Hong Kong_Sha Tin Wai_vmess_1013
+  - Hong Kong_Central_vmess_1013
   - China_None_vmess_1014
   - China_None_vmess_1015
   - Hong Kong_Central_vmess_1016
   - China_None_vmess_1017
   - China_None_vmess_1018
+  - China_None_trojan_1019
+  - China_None_trojan_1020
 rules:
 - DOMAIN,clash.razord.top,DIRECT
 - DOMAIN,yacd.haishan.me,DIRECT
