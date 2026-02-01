@@ -33,7 +33,7 @@ proxies:
   type: ss
 - alterId: 2
   cipher: auto
-  name: Hong Kong_Yuen Long San Hui_vmess_102
+  name: Hong Kong_Sham Shui Po_vmess_102
   port: 30807
   server: v10.hdacd.com
   skip-cert-verify: false
@@ -153,7 +153,7 @@ proxies:
   type: ss
 - alterId: 2
   cipher: auto
-  name: Hong Kong_Yuen Long San Hui_vmess_1017
+  name: Hong Kong_Sham Shui Po_vmess_1017
   network: tcp
   port: '30807'
   server: v10.hdacd.com
@@ -171,21 +171,6 @@ proxies:
   tls: false
   type: vmess
   uuid: 8d74803e-aa74-47ef-e3ae-23eeaa96f89d
-- name: China_None_trojan_1019
-  password: 685343f2-49e1-41f8-a7fc-5d0993afb6c6
-  port: 43533
-  server: faq1.lieerr222.cn
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: China_None_trojan_1020
-  password: 685343f2-49e1-41f8-a7fc-5d0993afb6c6
-  port: 43533
-  server: faq1.lieerr222.cn
-  skip-cert-verify: true
-  sni: faq1.lieerr222.cn
-  type: trojan
-  udp: true
 proxy-groups:
 - name: 节点选择
   type: select
@@ -193,7 +178,7 @@ proxy-groups:
   - 自动选择
   - DIRECT
   - United States_None_ss_101
-  - Hong Kong_Yuen Long San Hui_vmess_102
+  - Hong Kong_Sham Shui Po_vmess_102
   - Hong Kong_San Po Kong_trojan_103
   - Hong Kong_None_trojan_104
   - Japan_Tokyo_trojan_105
@@ -208,10 +193,8 @@ proxy-groups:
   - Hong Kong_None_trojan_1014
   - Unknown_vmess_1015
   - South Korea_Songpa-gu_ss_1016
-  - Hong Kong_Yuen Long San Hui_vmess_1017
+  - Hong Kong_Sham Shui Po_vmess_1017
   - Unknown_vmess_1018
-  - China_None_trojan_1019
-  - China_None_trojan_1020
 - name: 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -219,7 +202,7 @@ proxy-groups:
   tolerance: 50
   proxies:
   - United States_None_ss_101
-  - Hong Kong_Yuen Long San Hui_vmess_102
+  - Hong Kong_Sham Shui Po_vmess_102
   - Hong Kong_San Po Kong_trojan_103
   - Hong Kong_None_trojan_104
   - Japan_Tokyo_trojan_105
@@ -234,10 +217,8 @@ proxy-groups:
   - Hong Kong_None_trojan_1014
   - Unknown_vmess_1015
   - South Korea_Songpa-gu_ss_1016
-  - Hong Kong_Yuen Long San Hui_vmess_1017
+  - Hong Kong_Sham Shui Po_vmess_1017
   - Unknown_vmess_1018
-  - China_None_trojan_1019
-  - China_None_trojan_1020
 rules:
 - DOMAIN,clash.razord.top,DIRECT
 - DOMAIN,yacd.haishan.me,DIRECT
