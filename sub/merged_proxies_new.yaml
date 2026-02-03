@@ -33,7 +33,7 @@ proxies:
   type: ss
 - alterId: 2
   cipher: auto
-  name: Hong Kong_Central_vmess_102
+  name: Hong Kong_Tuen Mun_vmess_102
   port: 30807
   server: v10.hdacd.com
   skip-cert-verify: false
@@ -144,7 +144,7 @@ proxies:
   type: ss
 - alterId: 2
   cipher: auto
-  name: Hong Kong_Central_vmess_1016
+  name: Hong Kong_Tuen Mun_vmess_1016
   network: tcp
   port: '30807'
   server: v10.hdacd.com
@@ -167,7 +167,7 @@ proxy-groups:
   - 自动选择
   - DIRECT
   - United States_None_ss_101
-  - Hong Kong_Central_vmess_102
+  - Hong Kong_Tuen Mun_vmess_102
   - Hong Kong_Central_trojan_103
   - United States_None_trojan_104
   - Japan_Tokyo_trojan_105
@@ -181,7 +181,7 @@ proxy-groups:
   - The Netherlands_Meppel_trojan_1013
   - Japan_Tokyo_trojan_1014
   - South Korea_Dongjak-gu_ss_1015
-  - Hong Kong_Central_vmess_1016
+  - Hong Kong_Tuen Mun_vmess_1016
   - India_Mumbai_trojan_1017
 - name: 自动选择
   type: url-test
@@ -190,7 +190,7 @@ proxy-groups:
   tolerance: 50
   proxies:
   - United States_None_ss_101
-  - Hong Kong_Central_vmess_102
+  - Hong Kong_Tuen Mun_vmess_102
   - Hong Kong_Central_trojan_103
   - United States_None_trojan_104
   - Japan_Tokyo_trojan_105
@@ -204,7 +204,7 @@ proxy-groups:
   - The Netherlands_Meppel_trojan_1013
   - Japan_Tokyo_trojan_1014
   - South Korea_Dongjak-gu_ss_1015
-  - Hong Kong_Central_vmess_1016
+  - Hong Kong_Tuen Mun_vmess_1016
   - India_Mumbai_trojan_1017
 rules:
 - DOMAIN,clash.razord.top,DIRECT
