@@ -146,14 +146,6 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: India_Mumbai_trojan_1016
-  password: M7v%w11Se*
-  port: 443
-  server: amanm.wsone.icu
-  skip-cert-verify: true
-  sni: amanm.wsone.icu
-  type: trojan
-  udp: true
 proxy-groups:
 - name: 节点选择
   type: select
@@ -175,7 +167,6 @@ proxy-groups:
   - Singapore_Singapore_trojan_1013
   - Japan_Tokyo_trojan_1014
   - Hong Kong_Central_vmess_1015
-  - India_Mumbai_trojan_1016
 - name: 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -197,7 +188,6 @@ proxy-groups:
   - Singapore_Singapore_trojan_1013
   - Japan_Tokyo_trojan_1014
   - Hong Kong_Central_vmess_1015
-  - India_Mumbai_trojan_1016
 rules:
 - DOMAIN,clash.razord.top,DIRECT
 - DOMAIN,yacd.haishan.me,DIRECT
