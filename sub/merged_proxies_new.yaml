@@ -146,6 +146,39 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- name: South Korea_Paju_trojan_1016
+  network: ws
+  password: trojan
+  port: 11434
+  server: 114.207.99.233
+  skip-cert-verify: true
+  sni: jflsjlaf.pages.dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: jflsjlaf.pages.dev
+    path: /
+- name: United Kingdom_None_trojan_1017
+  password: q2GRUM1-odJBWq_KV6xv2fuNvu8ed-
+  port: 443
+  server: 8443.golden-cards.me
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: United States_San Jose_trojan_1018
+  network: ws
+  password: trojan
+  port: 7071
+  server: 154.17.234.78
+  skip-cert-verify: true
+  sni: jflsjlaf.pages.dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: jflsjlaf.pages.dev
+    path: /
 proxy-groups:
 - name: 节点选择
   type: select
@@ -167,6 +200,9 @@ proxy-groups:
   - Japan_Tokyo_trojan_1013
   - Japan_Tokyo_trojan_1014
   - Hong Kong_Central_vmess_1015
+  - South Korea_Paju_trojan_1016
+  - United Kingdom_None_trojan_1017
+  - United States_San Jose_trojan_1018
 - name: 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -188,6 +224,9 @@ proxy-groups:
   - Japan_Tokyo_trojan_1013
   - Japan_Tokyo_trojan_1014
   - Hong Kong_Central_vmess_1015
+  - South Korea_Paju_trojan_1016
+  - United Kingdom_None_trojan_1017
+  - United States_San Jose_trojan_1018
 rules:
 - DOMAIN,clash.razord.top,DIRECT
 - DOMAIN,yacd.haishan.me,DIRECT
