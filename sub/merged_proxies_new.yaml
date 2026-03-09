@@ -33,7 +33,7 @@ proxies:
   type: ss
 - alterId: 2
   cipher: auto
-  name: Hong Kong_Kowloon_vmess_102
+  name: Hong Kong_Wong Tai Sin_vmess_102
   port: 30807
   server: v10.hdacd.com
   skip-cert-verify: false
@@ -138,7 +138,7 @@ proxies:
   type: trojan
 - alterId: 2
   cipher: auto
-  name: Hong Kong_Kowloon_vmess_1015
+  name: Hong Kong_Wong Tai Sin_vmess_1015
   network: tcp
   port: '30807'
   server: v10.hdacd.com
@@ -146,11 +146,19 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: South Korea_Paju_trojan_1016
+- name: Hong Kong_Sai Wan_trojan_1016
+  password: BxceQaOe
+  port: 443
+  server: 58.152.25.253
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
+  udp: true
+- name: South Korea_Seongnam-si_trojan_1017
   network: ws
   password: trojan
-  port: 11434
-  server: 114.207.99.233
+  port: 11001
+  server: 121.131.136.208
   skip-cert-verify: true
   sni: jflsjlaf.pages.dev
   type: trojan
@@ -159,26 +167,14 @@ proxies:
     headers:
       Host: jflsjlaf.pages.dev
     path: /
-- name: United Kingdom_None_trojan_1017
+- name: United Kingdom_None_trojan_1018
   password: q2GRUM1-odJBWq_KV6xv2fuNvu8ed-
   port: 443
   server: 8443.golden-cards.me
   skip-cert-verify: true
+  sni: 8443.golden-cards.me
   type: trojan
   udp: true
-- name: United States_San Jose_trojan_1018
-  network: ws
-  password: trojan
-  port: 7071
-  server: 154.17.234.78
-  skip-cert-verify: true
-  sni: jflsjlaf.pages.dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: jflsjlaf.pages.dev
-    path: /
 proxy-groups:
 - name: 节点选择
   type: select
@@ -186,7 +182,7 @@ proxy-groups:
   - 自动选择
   - DIRECT
   - United States_None_ss_101
-  - Hong Kong_Kowloon_vmess_102
+  - Hong Kong_Wong Tai Sin_vmess_102
   - Hong Kong_Central_trojan_103
   - Japan_Tokyo_trojan_104
   - Japan_Tokyo_trojan_105
@@ -199,10 +195,10 @@ proxy-groups:
   - Japan_Tokyo_trojan_1012
   - Japan_Tokyo_trojan_1013
   - Hong Kong_None_trojan_1014
-  - Hong Kong_Kowloon_vmess_1015
-  - South Korea_Paju_trojan_1016
-  - United Kingdom_None_trojan_1017
-  - United States_San Jose_trojan_1018
+  - Hong Kong_Wong Tai Sin_vmess_1015
+  - Hong Kong_Sai Wan_trojan_1016
+  - South Korea_Seongnam-si_trojan_1017
+  - United Kingdom_None_trojan_1018
 - name: 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -210,7 +206,7 @@ proxy-groups:
   tolerance: 50
   proxies:
   - United States_None_ss_101
-  - Hong Kong_Kowloon_vmess_102
+  - Hong Kong_Wong Tai Sin_vmess_102
   - Hong Kong_Central_trojan_103
   - Japan_Tokyo_trojan_104
   - Japan_Tokyo_trojan_105
@@ -223,10 +219,10 @@ proxy-groups:
   - Japan_Tokyo_trojan_1012
   - Japan_Tokyo_trojan_1013
   - Hong Kong_None_trojan_1014
-  - Hong Kong_Kowloon_vmess_1015
-  - South Korea_Paju_trojan_1016
-  - United Kingdom_None_trojan_1017
-  - United States_San Jose_trojan_1018
+  - Hong Kong_Wong Tai Sin_vmess_1015
+  - Hong Kong_Sai Wan_trojan_1016
+  - South Korea_Seongnam-si_trojan_1017
+  - United Kingdom_None_trojan_1018
 rules:
 - DOMAIN,clash.razord.top,DIRECT
 - DOMAIN,yacd.haishan.me,DIRECT
