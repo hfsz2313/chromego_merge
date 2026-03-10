@@ -33,7 +33,7 @@ proxies:
   type: ss
 - alterId: 2
   cipher: auto
-  name: Hong Kong_Central_vmess_102
+  name: Hong Kong_Kowloon_vmess_102
   port: 30807
   server: v10.hdacd.com
   skip-cert-verify: false
@@ -153,7 +153,7 @@ proxies:
     path: /
 - alterId: 2
   cipher: auto
-  name: Hong Kong_Central_vmess_1016
+  name: Hong Kong_Kowloon_vmess_1016
   network: tcp
   port: '30807'
   server: v10.hdacd.com
@@ -197,7 +197,7 @@ proxy-groups:
   - 自动选择
   - DIRECT
   - United States_None_ss_101
-  - Hong Kong_Central_vmess_102
+  - Hong Kong_Kowloon_vmess_102
   - Hong Kong_Central_trojan_103
   - Hong Kong_None_trojan_104
   - Japan_Tokyo_trojan_105
@@ -211,7 +211,7 @@ proxy-groups:
   - Japan_Tokyo_trojan_1013
   - Hong Kong_None_trojan_1014
   - France_None_vmess_1015
-  - Hong Kong_Central_vmess_1016
+  - Hong Kong_Kowloon_vmess_1016
   - Hong Kong_Sai Wan_trojan_1017
   - South Korea_Seongnam-si_trojan_1018
   - United Kingdom_None_trojan_1019
@@ -222,7 +222,7 @@ proxy-groups:
   tolerance: 50
   proxies:
   - United States_None_ss_101
-  - Hong Kong_Central_vmess_102
+  - Hong Kong_Kowloon_vmess_102
   - Hong Kong_Central_trojan_103
   - Hong Kong_None_trojan_104
   - Japan_Tokyo_trojan_105
@@ -236,7 +236,7 @@ proxy-groups:
   - Japan_Tokyo_trojan_1013
   - Hong Kong_None_trojan_1014
   - France_None_vmess_1015
-  - Hong Kong_Central_vmess_1016
+  - Hong Kong_Kowloon_vmess_1016
   - Hong Kong_Sai Wan_trojan_1017
   - South Korea_Seongnam-si_trojan_1018
   - United Kingdom_None_trojan_1019
