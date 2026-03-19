@@ -33,7 +33,7 @@ proxies:
   type: ss
 - alterId: 2
   cipher: auto
-  name: Hong Kong_Tuen Mun_vmess_102
+  name: Hong Kong_Central_vmess_102
   port: 30807
   server: v10.hdacd.com
   skip-cert-verify: false
@@ -153,7 +153,7 @@ proxies:
   type: ss
 - alterId: 2
   cipher: auto
-  name: Hong Kong_Tuen Mun_vmess_1017
+  name: Hong Kong_Central_vmess_1017
   network: tcp
   port: '30807'
   server: v10.hdacd.com
@@ -194,7 +194,7 @@ proxy-groups:
   - 自动选择
   - DIRECT
   - United States_None_ss_101
-  - Hong Kong_Tuen Mun_vmess_102
+  - Hong Kong_Central_vmess_102
   - United States_Los Angeles_vmess_103
   - Japan_Tokyo_trojan_104
   - Japan_Tokyo_trojan_105
@@ -209,7 +209,7 @@ proxy-groups:
   - Japan_Tokyo_trojan_1014
   - Poland_None_trojan_1015
   - China_None_ss_1016
-  - Hong Kong_Tuen Mun_vmess_1017
+  - Hong Kong_Central_vmess_1017
   - United States_Los Angeles_vmess_1018
   - United Kingdom_Epping_trojan_1019
   - Romania_None_trojan_1020
@@ -220,7 +220,7 @@ proxy-groups:
   tolerance: 50
   proxies:
   - United States_None_ss_101
-  - Hong Kong_Tuen Mun_vmess_102
+  - Hong Kong_Central_vmess_102
   - United States_Los Angeles_vmess_103
   - Japan_Tokyo_trojan_104
   - Japan_Tokyo_trojan_105
@@ -235,7 +235,7 @@ proxy-groups:
   - Japan_Tokyo_trojan_1014
   - Poland_None_trojan_1015
   - China_None_ss_1016
-  - Hong Kong_Tuen Mun_vmess_1017
+  - Hong Kong_Central_vmess_1017
   - United States_Los Angeles_vmess_1018
   - United Kingdom_Epping_trojan_1019
   - Romania_None_trojan_1020
