@@ -159,19 +159,6 @@ proxies:
     headers:
       Host: jflsjlaf.pages.dev
     path: /
-- name: Austria_None_trojan_1017
-  network: ws
-  password: trojan
-  port: 8444
-  server: 152.53.200.167
-  skip-cert-verify: false
-  sni: jflsjlaf.pages.dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: jflsjlaf.pages.dev
-    path: /
 proxy-groups:
 - name: 节点选择
   type: select
@@ -194,7 +181,6 @@ proxy-groups:
   - Hong Kong_None_trojan_1014
   - Hong Kong_Central_vmess_1015
   - Austria_None_trojan_1016
-  - Austria_None_trojan_1017
 - name: 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -217,7 +203,6 @@ proxy-groups:
   - Hong Kong_None_trojan_1014
   - Hong Kong_Central_vmess_1015
   - Austria_None_trojan_1016
-  - Austria_None_trojan_1017
 rules:
 - DOMAIN,clash.razord.top,DIRECT
 - DOMAIN,yacd.haishan.me,DIRECT
