@@ -176,19 +176,6 @@ proxies:
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- name: None_None_trojan_1019
-  network: ws
-  password: :U]2hAN7Y[Ka0Eb_
-  port: 8443
-  server: 104.17.148.22
-  skip-cert-verify: false
-  sni: TEst-63W.PaGEs.deV
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: TEst-63W.PaGEs.deV
-    path: /tre6QQRE1ue6YL7k30/NzIuMTMuMTIyLjEzNw==?ed=2560
 proxy-groups:
 - name: 节点选择
   type: select
@@ -213,7 +200,6 @@ proxy-groups:
   - Hong Kong_Central_vmess_1016
   - United Kingdom_None_vmess_1017
   - United Kingdom_None_vmess_1018
-  - None_None_trojan_1019
 - name: 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -238,7 +224,6 @@ proxy-groups:
   - Hong Kong_Central_vmess_1016
   - United Kingdom_None_vmess_1017
   - United Kingdom_None_vmess_1018
-  - None_None_trojan_1019
 rules:
 - DOMAIN,clash.razord.top,DIRECT
 - DOMAIN,yacd.haishan.me,DIRECT
