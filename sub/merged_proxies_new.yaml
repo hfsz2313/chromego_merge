@@ -176,6 +176,22 @@ proxies:
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- name: Taiwan_Kaohsiung City_trojan_1019
+  password: e5c22f63-e473-496a-beff-fdc5655008c1
+  port: 2096
+  server: tvhinet.lajichang.xyz
+  skip-cert-verify: true
+  sni: bing.com
+  type: trojan
+  udp: true
+- name: Taiwan_Kaohsiung City_trojan_1020
+  password: e5c22f63-e473-496a-beff-fdc5655008c1
+  port: 2096
+  server: tvhinet.lajichang.xyz
+  skip-cert-verify: true
+  sni: tvhinet.lajichang.xyz
+  type: trojan
+  udp: true
 proxy-groups:
 - name: 节点选择
   type: select
@@ -200,6 +216,8 @@ proxy-groups:
   - Hong Kong_Central_vmess_1016
   - United Kingdom_None_vmess_1017
   - United Kingdom_None_vmess_1018
+  - Taiwan_Kaohsiung City_trojan_1019
+  - Taiwan_Kaohsiung City_trojan_1020
 - name: 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -224,6 +242,8 @@ proxy-groups:
   - Hong Kong_Central_vmess_1016
   - United Kingdom_None_vmess_1017
   - United Kingdom_None_vmess_1018
+  - Taiwan_Kaohsiung City_trojan_1019
+  - Taiwan_Kaohsiung City_trojan_1020
 rules:
 - DOMAIN,clash.razord.top,DIRECT
 - DOMAIN,yacd.haishan.me,DIRECT
