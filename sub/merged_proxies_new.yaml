@@ -33,7 +33,7 @@ proxies:
   type: ss
 - alterId: 2
   cipher: auto
-  name: Hong Kong_Tuen Mun_vmess_102
+  name: Hong Kong_Central_vmess_102
   port: 30807
   server: v10.hdacd.com
   skip-cert-verify: false
@@ -156,7 +156,7 @@ proxies:
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 2
   cipher: auto
-  name: Hong Kong_Tuen Mun_vmess_1017
+  name: Hong Kong_Central_vmess_1017
   network: tcp
   port: '30807'
   server: v10.hdacd.com
@@ -184,22 +184,19 @@ proxies:
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- name: Taiwan_Pingtung City_trojan_1020
-  password: e5c22f63-e473-496a-beff-fdc5655008c1
-  port: 2096
-  server: tvhinet.lajichang.xyz
-  skip-cert-verify: true
-  sni: bing.com
+- name: None_None_trojan_1020
+  network: ws
+  password: bpb-trojan
+  port: 443
+  server: vless.herogoing.top
+  skip-cert-verify: false
+  sni: vless.herogoing.top
   type: trojan
   udp: true
-- name: Taiwan_Pingtung City_trojan_1021
-  password: e5c22f63-e473-496a-beff-fdc5655008c1
-  port: 2096
-  server: tvhinet.lajichang.xyz
-  skip-cert-verify: true
-  sni: tvhinet.lajichang.xyz
-  type: trojan
-  udp: true
+  ws-opts:
+    headers:
+      Host: vless.herogoing.top
+    path: /tr?ed=2560
 proxy-groups:
 - name: 节点选择
   type: select
@@ -207,7 +204,7 @@ proxy-groups:
   - 自动选择
   - DIRECT
   - United States_None_ss_101
-  - Hong Kong_Tuen Mun_vmess_102
+  - Hong Kong_Central_vmess_102
   - Hong Kong_None_trojan_103
   - Poland_None_trojan_104
   - Hong Kong_None_trojan_105
@@ -222,11 +219,10 @@ proxy-groups:
   - Japan_Tokyo_trojan_1014
   - United Kingdom_None_vmess_1015
   - United Kingdom_None_vmess_1016
-  - Hong Kong_Tuen Mun_vmess_1017
+  - Hong Kong_Central_vmess_1017
   - United Kingdom_None_vmess_1018
   - United Kingdom_None_vmess_1019
-  - Taiwan_Pingtung City_trojan_1020
-  - Taiwan_Pingtung City_trojan_1021
+  - None_None_trojan_1020
 - name: 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -234,7 +230,7 @@ proxy-groups:
   tolerance: 50
   proxies:
   - United States_None_ss_101
-  - Hong Kong_Tuen Mun_vmess_102
+  - Hong Kong_Central_vmess_102
   - Hong Kong_None_trojan_103
   - Poland_None_trojan_104
   - Hong Kong_None_trojan_105
@@ -249,11 +245,10 @@ proxy-groups:
   - Japan_Tokyo_trojan_1014
   - United Kingdom_None_vmess_1015
   - United Kingdom_None_vmess_1016
-  - Hong Kong_Tuen Mun_vmess_1017
+  - Hong Kong_Central_vmess_1017
   - United Kingdom_None_vmess_1018
   - United Kingdom_None_vmess_1019
-  - Taiwan_Pingtung City_trojan_1020
-  - Taiwan_Pingtung City_trojan_1021
+  - None_None_trojan_1020
 rules:
 - DOMAIN,clash.razord.top,DIRECT
 - DOMAIN,yacd.haishan.me,DIRECT
