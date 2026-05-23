@@ -184,7 +184,7 @@ proxies:
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- name: None_None_trojan_1020
+- name: United States_None_trojan_1020
   network: ws
   password: bpb-trojan
   port: 443
@@ -222,7 +222,7 @@ proxy-groups:
   - Hong Kong_Central_vmess_1017
   - United Kingdom_None_vmess_1018
   - United Kingdom_None_vmess_1019
-  - None_None_trojan_1020
+  - United States_None_trojan_1020
 - name: 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -248,7 +248,7 @@ proxy-groups:
   - Hong Kong_Central_vmess_1017
   - United Kingdom_None_vmess_1018
   - United Kingdom_None_vmess_1019
-  - None_None_trojan_1020
+  - United States_None_trojan_1020
 rules:
 - DOMAIN,clash.razord.top,DIRECT
 - DOMAIN,yacd.haishan.me,DIRECT
