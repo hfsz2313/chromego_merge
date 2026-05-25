@@ -186,17 +186,43 @@ proxies:
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - name: None_None_trojan_1020
   network: ws
-  password: bpb-trojan
-  port: 443
-  server: vless.herogoing.top
+  password: :U]2hAN7Y[Ka0Eb_
+  port: 8443
+  server: www.speedtest.net
   skip-cert-verify: false
-  sni: vless.herogoing.top
+  sni: TEst-63W.PaGEs.deV
   type: trojan
   udp: true
   ws-opts:
     headers:
-      Host: vless.herogoing.top
-    path: /tr?ed=2560
+      Host: TEst-63W.PaGEs.deV
+    path: /tre6QQRE1ue6YL7k30/NzIuMTMuMTIyLjEzNw==
+- name: None_None_trojan_1021
+  network: ws
+  password: :U]2hAN7Y[Ka0Eb_
+  port: 8443
+  server: 104.17.148.22
+  skip-cert-verify: false
+  sni: TEst-63W.PaGEs.deV
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: TEst-63W.PaGEs.deV
+    path: /tre6QQRE1ue6YL7k30/NzIuMTMuMTIyLjEzNw==
+- name: United States_San Francisco_trojan_1022
+  network: ws
+  password: 2238e2f3-1a01-485e-8c22-24b65764c68b
+  port: 443
+  server: 172.64.152.23
+  skip-cert-verify: false
+  sni: gzjx.dpdns.org
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: gzjx.dpdns.org
+    path: /51.91.253.83=8443
 proxy-groups:
 - name: 节点选择
   type: select
@@ -223,6 +249,8 @@ proxy-groups:
   - United Kingdom_None_vmess_1018
   - United Kingdom_None_vmess_1019
   - None_None_trojan_1020
+  - None_None_trojan_1021
+  - United States_San Francisco_trojan_1022
 - name: 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -249,6 +277,8 @@ proxy-groups:
   - United Kingdom_None_vmess_1018
   - United Kingdom_None_vmess_1019
   - None_None_trojan_1020
+  - None_None_trojan_1021
+  - United States_San Francisco_trojan_1022
 rules:
 - DOMAIN,clash.razord.top,DIRECT
 - DOMAIN,yacd.haishan.me,DIRECT
