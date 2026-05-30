@@ -40,19 +40,19 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: Japan_Tokyo_trojan_103
+- name: Hong Kong_None_trojan_103
   network: tcp
   password: f6d3aa07a52dbcedcb4731029e2fb6ae
-  port: 2008
-  server: 52.69.114.14
-  skip-cert-verify: false
+  port: 53018
+  server: 18.166.208.219
+  skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: Japan_Tokyo_trojan_104
   network: tcp
   password: BxceQaOe
-  port: 4327
-  server: 54.168.196.137
+  port: 50712
+  server: 13.231.192.34
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
@@ -67,72 +67,72 @@ proxies:
 - name: Japan_Tokyo_trojan_106
   network: tcp
   password: BxceQaOe
-  port: 4099
-  server: 13.231.225.85
+  port: 53307
+  server: 13.231.192.34
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
 - name: Hong Kong_None_trojan_107
   network: tcp
   password: f6d3aa07a52dbcedcb4731029e2fb6ae
-  port: 8066
-  server: 16.163.29.124
+  port: 24184
+  server: 18.163.128.27
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: Hong Kong_None_trojan_108
   network: tcp
   password: f6d3aa07a52dbcedcb4731029e2fb6ae
-  port: 11541
-  server: 16.163.29.124
+  port: 3135
+  server: 18.163.128.27
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: Poland_None_trojan_109
+- name: Hong Kong_None_trojan_109
   network: tcp
   password: f6d3aa07a52dbcedcb4731029e2fb6ae
   port: 4840
-  server: 95.40.114.115
+  server: 18.163.128.27
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: Hong Kong_None_trojan_1010
+- name: Japan_Tokyo_trojan_1010
   network: tcp
   password: f6d3aa07a52dbcedcb4731029e2fb6ae
-  port: 3842
-  server: 16.163.29.124
+  port: 4840
+  server: 54.238.76.39
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: Japan_Tokyo_trojan_1011
+- name: Hong Kong_None_trojan_1011
   network: tcp
   password: BxceQaOe
-  port: 39756
-  server: 35.78.121.219
+  port: 7484
+  server: 18.166.59.84
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: Poland_None_trojan_1012
+- name: Hong Kong_None_trojan_1012
   network: tcp
   password: f6d3aa07a52dbcedcb4731029e2fb6ae
   port: 2663
-  server: 95.40.114.115
+  server: 18.163.128.27
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: Japan_Tokyo_trojan_1013
   network: tcp
   password: f6d3aa07a52dbcedcb4731029e2fb6ae
-  port: 2663
-  server: 52.69.114.14
+  port: 6604
+  server: 54.238.76.39
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: Japan_Tokyo_trojan_1014
+- name: Hong Kong_None_trojan_1014
   network: tcp
   password: BxceQaOe
-  port: 2702
-  server: 43.206.155.159
+  port: 17801
+  server: 43.199.229.84
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
@@ -270,18 +270,18 @@ proxy-groups:
   - DIRECT
   - United States_None_ss_101
   - Hong Kong_Central_vmess_102
-  - Japan_Tokyo_trojan_103
+  - Hong Kong_None_trojan_103
   - Japan_Tokyo_trojan_104
   - Hong Kong_None_trojan_105
   - Japan_Tokyo_trojan_106
   - Hong Kong_None_trojan_107
   - Hong Kong_None_trojan_108
-  - Poland_None_trojan_109
-  - Hong Kong_None_trojan_1010
-  - Japan_Tokyo_trojan_1011
-  - Poland_None_trojan_1012
+  - Hong Kong_None_trojan_109
+  - Japan_Tokyo_trojan_1010
+  - Hong Kong_None_trojan_1011
+  - Hong Kong_None_trojan_1012
   - Japan_Tokyo_trojan_1013
-  - Japan_Tokyo_trojan_1014
+  - Hong Kong_None_trojan_1014
   - United Kingdom_None_vmess_1015
   - United Kingdom_None_vmess_1016
   - Hong Kong_Central_vmess_1017
@@ -301,18 +301,18 @@ proxy-groups:
   proxies:
   - United States_None_ss_101
   - Hong Kong_Central_vmess_102
-  - Japan_Tokyo_trojan_103
+  - Hong Kong_None_trojan_103
   - Japan_Tokyo_trojan_104
   - Hong Kong_None_trojan_105
   - Japan_Tokyo_trojan_106
   - Hong Kong_None_trojan_107
   - Hong Kong_None_trojan_108
-  - Poland_None_trojan_109
-  - Hong Kong_None_trojan_1010
-  - Japan_Tokyo_trojan_1011
-  - Poland_None_trojan_1012
+  - Hong Kong_None_trojan_109
+  - Japan_Tokyo_trojan_1010
+  - Hong Kong_None_trojan_1011
+  - Hong Kong_None_trojan_1012
   - Japan_Tokyo_trojan_1013
-  - Japan_Tokyo_trojan_1014
+  - Hong Kong_None_trojan_1014
   - United Kingdom_None_vmess_1015
   - United Kingdom_None_vmess_1016
   - Hong Kong_Central_vmess_1017
