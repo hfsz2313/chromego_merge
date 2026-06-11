@@ -33,7 +33,7 @@ proxies:
   type: ss
 - alterId: 2
   cipher: auto
-  name: Hong Kong_Tuen Mun_vmess_102
+  name: Hong Kong_Central_vmess_102
   port: 30807
   server: v10.hdacd.com
   skip-cert-verify: false
@@ -147,7 +147,7 @@ proxies:
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 2
   cipher: auto
-  name: Hong Kong_Tuen Mun_vmess_1016
+  name: Hong Kong_Central_vmess_1016
   network: tcp
   port: '30807'
   server: v10.hdacd.com
@@ -165,6 +165,14 @@ proxies:
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- name: Germany_None_trojan_1018
+  password: LYaEYwjN8LjWTRJdCCTzW7V6gK7atJVu
+  port: 9443
+  server: de-1.hysteria.ltd
+  skip-cert-verify: false
+  sni: de-1.hysteria.ltd
+  type: trojan
+  udp: true
 proxy-groups:
 - name: 节点选择
   type: select
@@ -172,7 +180,7 @@ proxy-groups:
   - 自动选择
   - DIRECT
   - United States_None_ss_101
-  - Hong Kong_Tuen Mun_vmess_102
+  - Hong Kong_Central_vmess_102
   - Hong Kong_None_trojan_103
   - Poland_None_trojan_104
   - Poland_None_trojan_105
@@ -186,8 +194,9 @@ proxy-groups:
   - Poland_None_trojan_1013
   - Hong Kong_None_trojan_1014
   - United Kingdom_None_vmess_1015
-  - Hong Kong_Tuen Mun_vmess_1016
+  - Hong Kong_Central_vmess_1016
   - United Kingdom_None_vmess_1017
+  - Germany_None_trojan_1018
 - name: 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -195,7 +204,7 @@ proxy-groups:
   tolerance: 50
   proxies:
   - United States_None_ss_101
-  - Hong Kong_Tuen Mun_vmess_102
+  - Hong Kong_Central_vmess_102
   - Hong Kong_None_trojan_103
   - Poland_None_trojan_104
   - Poland_None_trojan_105
@@ -209,8 +218,9 @@ proxy-groups:
   - Poland_None_trojan_1013
   - Hong Kong_None_trojan_1014
   - United Kingdom_None_vmess_1015
-  - Hong Kong_Tuen Mun_vmess_1016
+  - Hong Kong_Central_vmess_1016
   - United Kingdom_None_vmess_1017
+  - Germany_None_trojan_1018
 rules:
 - DOMAIN,clash.razord.top,DIRECT
 - DOMAIN,yacd.haishan.me,DIRECT
