@@ -146,14 +146,45 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: Germany_None_trojan_1016
-  password: LYaEYwjN8LjWTRJdCCTzW7V6gK7atJVu
-  port: 9443
-  server: de-1.hysteria.ltd
+- name: South Korea_Chuncheon_trojan_1016
+  network: ws
+  password: eeb6823c-b926-4ea2-866a-5542edd26e59
+  port: 443
+  server: 129.154.50.159
   skip-cert-verify: false
-  sni: de-1.hysteria.ltd
+  sni: tjsp.hhxaf.cc.cd
   type: trojan
   udp: true
+  ws-opts:
+    headers:
+      Host: tjsp.hhxaf.cc.cd
+    path: /
+- name: United States_Los Angeles_trojan_1017
+  network: ws
+  password: eeb6823c-b926-4ea2-866a-5542edd26e59
+  port: 443
+  server: 154.17.28.152
+  skip-cert-verify: false
+  sni: hhcm.hhxaf.cc.cd
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: hhcm.hhxaf.cc.cd
+    path: /
+- name: United States_None_trojan_1018
+  network: ws
+  password: eeb6823c-b926-4ea2-866a-5542edd26e59
+  port: 443
+  server: 69.63.223.42
+  skip-cert-verify: false
+  sni: tjsp.hhxaf.cc.cd
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: tjsp.hhxaf.cc.cd
+    path: /
 proxy-groups:
 - name: 节点选择
   type: select
@@ -175,7 +206,9 @@ proxy-groups:
   - Japan_Tokyo_trojan_1013
   - United States_None_trojan_1014
   - Hong Kong_Kowloon_vmess_1015
-  - Germany_None_trojan_1016
+  - South Korea_Chuncheon_trojan_1016
+  - United States_Los Angeles_trojan_1017
+  - United States_None_trojan_1018
 - name: 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -197,7 +230,9 @@ proxy-groups:
   - Japan_Tokyo_trojan_1013
   - United States_None_trojan_1014
   - Hong Kong_Kowloon_vmess_1015
-  - Germany_None_trojan_1016
+  - South Korea_Chuncheon_trojan_1016
+  - United States_Los Angeles_trojan_1017
+  - United States_None_trojan_1018
 rules:
 - DOMAIN,clash.razord.top,DIRECT
 - DOMAIN,yacd.haishan.me,DIRECT
