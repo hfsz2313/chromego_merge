@@ -40,52 +40,51 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: Poland_None_trojan_103
+- name: Hong Kong_None_trojan_103
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
-  port: 50887
-  server: 95.40.107.76
+  port: 39412
+  server: 16.162.191.180
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: Hong Kong_None_trojan_104
   network: tcp
   password: BxceQaOe
-  port: 29443
-  server: 18.166.249.45
+  port: 39412
+  server: 16.162.191.180
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-  udp: true
 - name: Hong Kong_None_trojan_105
   network: tcp
   password: BxceQaOe
-  port: 11035
-  server: 16.163.123.222
+  port: 27161
+  server: 16.162.191.180
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
 - name: Hong Kong_None_trojan_106
   network: tcp
   password: BxceQaOe
-  port: 7630
-  server: 16.163.123.222
+  port: 49811
+  server: 16.162.191.180
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
 - name: Hong Kong_None_trojan_107
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
-  port: 14625
+  port: 3415
   server: 18.166.178.12
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: Japan_Tokyo_trojan_108
+- name: Hong Kong_None_trojan_108
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
   port: 54876
-  server: 57.183.7.187
+  server: 18.163.100.58
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
@@ -93,7 +92,7 @@ proxies:
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
   port: 51396
-  server: 18.163.100.58
+  server: 18.166.178.12
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
@@ -108,24 +107,24 @@ proxies:
 - name: Hong Kong_None_trojan_1011
   network: tcp
   password: BxceQaOe
-  port: 45744
-  server: 18.163.90.221
+  port: 9149
+  server: 16.162.22.218
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: Poland_None_trojan_1012
+- name: Hong Kong_None_trojan_1012
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
-  port: 34039
-  server: 95.40.107.76
+  port: 28051
+  server: 18.163.100.58
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: Hong Kong_None_trojan_1013
+- name: Poland_None_trojan_1013
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
-  port: 53001
-  server: 18.163.100.58
+  port: 28051
+  server: 95.40.107.76
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
@@ -133,11 +132,10 @@ proxies:
   network: tcp
   password: BxceQaOe
   port: 29085
-  server: 18.163.90.221
+  server: 16.162.164.238
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-  udp: true
 - alterId: 2
   cipher: auto
   name: Hong Kong_Central_vmess_1015
@@ -208,32 +206,27 @@ proxies:
   sni: t.me%252Fripaojiedian
   type: trojan
   udp: true
-- grpc-opts:
-    grpc-service-name: /56227/rSnUrv2yXU
-  name: Bulgaria_None_trojan_1022
-  network: grpc
-  password: 581e14a5fcc14107b9326cc54f047891
-  port: 443
-  server: 83.143.112.140.cdn-one.org
-  skip-cert-verify: false
-  sni: 83.143.112.140.cdn-one.org
+- name: Hong Kong_None_trojan_1022
+  password: BxceQaOe
+  port: 29443
+  server: 18.166.249.45
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
   type: trojan
   udp: true
-- grpc-opts:
-    grpc-service-name: /56227/rSnUrv2yXU
-  name: Bulgaria_None_trojan_1023
-  network: grpc
-  password: 581e14a5fcc14107b9326cc54f047891
-  port: 443
-  server: 83.143.112.140.cdn-one.org
-  skip-cert-verify: false
+- name: Hong Kong_None_trojan_1023
+  password: BxceQaOe
+  port: 29085
+  server: 18.163.90.221
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
   type: trojan
   udp: true
 - grpc-opts:
     grpc-service-name: /56227/rSnUrv2yXU
   name: Bulgaria_None_trojan_1024
   network: grpc
-  password: 32b2m2w7hsdd93z7
+  password: 581e14a5fcc14107b9326cc54f047891
   port: 443
   server: 83.143.112.140.cdn-one.org
   skip-cert-verify: false
@@ -244,13 +237,34 @@ proxies:
     grpc-service-name: /56227/rSnUrv2yXU
   name: Bulgaria_None_trojan_1025
   network: grpc
+  password: 581e14a5fcc14107b9326cc54f047891
+  port: 443
+  server: 83.143.112.140.cdn-one.org
+  skip-cert-verify: false
+  type: trojan
+  udp: true
+- grpc-opts:
+    grpc-service-name: /56227/rSnUrv2yXU
+  name: Bulgaria_None_trojan_1026
+  network: grpc
+  password: 32b2m2w7hsdd93z7
+  port: 443
+  server: 83.143.112.140.cdn-one.org
+  skip-cert-verify: false
+  sni: 83.143.112.140.cdn-one.org
+  type: trojan
+  udp: true
+- grpc-opts:
+    grpc-service-name: /56227/rSnUrv2yXU
+  name: Bulgaria_None_trojan_1027
+  network: grpc
   password: 32b2m2w7hsdd93z7
   port: 443
   server: 83.143.112.140.cdn-one.org
   skip-cert-verify: false
   type: trojan
   udp: true
-- name: United States_None_trojan_1026
+- name: United States_None_trojan_1028
   password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
   port: 20041
   server: Hkdcrtc-e.catcat321.com
@@ -258,7 +272,7 @@ proxies:
   sni: de.catxstar.com
   type: trojan
   udp: true
-- name: United States_None_trojan_1027
+- name: United States_None_trojan_1029
   password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
   port: 20041
   server: hkdcrtc-e.catcat321.com
@@ -266,7 +280,7 @@ proxies:
   sni: hkdcrtc-e.catcat321.com
   type: trojan
   udp: true
-- name: United States_None_trojan_1028
+- name: United States_None_trojan_1030
   password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
   port: 20041
   server: hkdcrtc-e.catcat321.com
@@ -282,17 +296,17 @@ proxy-groups:
   - DIRECT
   - United States_None_ss_101
   - Hong Kong_Central_vmess_102
-  - Poland_None_trojan_103
+  - Hong Kong_None_trojan_103
   - Hong Kong_None_trojan_104
   - Hong Kong_None_trojan_105
   - Hong Kong_None_trojan_106
   - Hong Kong_None_trojan_107
-  - Japan_Tokyo_trojan_108
+  - Hong Kong_None_trojan_108
   - Hong Kong_None_trojan_109
   - Poland_None_trojan_1010
   - Hong Kong_None_trojan_1011
-  - Poland_None_trojan_1012
-  - Hong Kong_None_trojan_1013
+  - Hong Kong_None_trojan_1012
+  - Poland_None_trojan_1013
   - Hong Kong_None_trojan_1014
   - Hong Kong_Central_vmess_1015
   - United Kingdom_Isleworth_trojan_1016
@@ -301,13 +315,15 @@ proxy-groups:
   - United Kingdom_Isleworth_trojan_1019
   - United Kingdom_Sheffield_trojan_1020
   - Hong Kong_None_trojan_1021
-  - Bulgaria_None_trojan_1022
-  - Bulgaria_None_trojan_1023
+  - Hong Kong_None_trojan_1022
+  - Hong Kong_None_trojan_1023
   - Bulgaria_None_trojan_1024
   - Bulgaria_None_trojan_1025
-  - United States_None_trojan_1026
-  - United States_None_trojan_1027
+  - Bulgaria_None_trojan_1026
+  - Bulgaria_None_trojan_1027
   - United States_None_trojan_1028
+  - United States_None_trojan_1029
+  - United States_None_trojan_1030
 - name: 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -316,17 +332,17 @@ proxy-groups:
   proxies:
   - United States_None_ss_101
   - Hong Kong_Central_vmess_102
-  - Poland_None_trojan_103
+  - Hong Kong_None_trojan_103
   - Hong Kong_None_trojan_104
   - Hong Kong_None_trojan_105
   - Hong Kong_None_trojan_106
   - Hong Kong_None_trojan_107
-  - Japan_Tokyo_trojan_108
+  - Hong Kong_None_trojan_108
   - Hong Kong_None_trojan_109
   - Poland_None_trojan_1010
   - Hong Kong_None_trojan_1011
-  - Poland_None_trojan_1012
-  - Hong Kong_None_trojan_1013
+  - Hong Kong_None_trojan_1012
+  - Poland_None_trojan_1013
   - Hong Kong_None_trojan_1014
   - Hong Kong_Central_vmess_1015
   - United Kingdom_Isleworth_trojan_1016
@@ -335,13 +351,15 @@ proxy-groups:
   - United Kingdom_Isleworth_trojan_1019
   - United Kingdom_Sheffield_trojan_1020
   - Hong Kong_None_trojan_1021
-  - Bulgaria_None_trojan_1022
-  - Bulgaria_None_trojan_1023
+  - Hong Kong_None_trojan_1022
+  - Hong Kong_None_trojan_1023
   - Bulgaria_None_trojan_1024
   - Bulgaria_None_trojan_1025
-  - United States_None_trojan_1026
-  - United States_None_trojan_1027
+  - Bulgaria_None_trojan_1026
+  - Bulgaria_None_trojan_1027
   - United States_None_trojan_1028
+  - United States_None_trojan_1029
+  - United States_None_trojan_1030
 rules:
 - DOMAIN,clash.razord.top,DIRECT
 - DOMAIN,yacd.haishan.me,DIRECT
