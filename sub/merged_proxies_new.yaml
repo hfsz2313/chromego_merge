@@ -56,6 +56,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
+  udp: true
 - name: Hong Kong_None_trojan_105
   network: tcp
   password: BxceQaOe
@@ -138,6 +139,22 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- name: Hong Kong_None_trojan_1015
+  password: BxceQaOe
+  port: 27161
+  server: 16.162.3.11
+  skip-cert-verify: true
+  sni: t.me/ripaojiedian
+  type: trojan
+  udp: true
+- name: Japan_Tokyo_trojan_1016
+  password: 7d8e6db4-96cc-4710-afc0-619edde2d7a1
+  port: 55682
+  server: t11.qifei.app
+  skip-cert-verify: true
+  sni: t11.qifei.app
+  type: trojan
+  udp: true
 proxy-groups:
 - name: 节点选择
   type: select
@@ -158,6 +175,8 @@ proxy-groups:
   - Hong Kong_None_trojan_1012
   - Hong Kong_None_trojan_1013
   - Hong Kong_Central_vmess_1014
+  - Hong Kong_None_trojan_1015
+  - Japan_Tokyo_trojan_1016
 - name: 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -178,6 +197,8 @@ proxy-groups:
   - Hong Kong_None_trojan_1012
   - Hong Kong_None_trojan_1013
   - Hong Kong_Central_vmess_1014
+  - Hong Kong_None_trojan_1015
+  - Japan_Tokyo_trojan_1016
 rules:
 - DOMAIN,clash.razord.top,DIRECT
 - DOMAIN,yacd.haishan.me,DIRECT
