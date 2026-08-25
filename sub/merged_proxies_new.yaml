@@ -55,24 +55,24 @@ proxies:
 - name: Japan_Tokyo_trojan_105
   network: tcp
   password: BxceQaOe
-  port: 4117
-  server: 18.183.103.86
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
-- name: Hong Kong_None_trojan_106
-  network: tcp
-  password: BxceQaOe
   port: 2944
-  server: 18.166.63.119
+  server: 18.181.83.46
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: Singapore_Singapore_trojan_107
+- name: Japan_Tokyo_trojan_106
   network: tcp
   password: BxceQaOe
-  port: 3878
-  server: 13.214.209.40
+  port: 1103
+  server: 43.206.117.36
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
+- name: Poland_None_trojan_107
+  network: tcp
+  password: BxceQaOe
+  port: 16691
+  server: 95.40.27.43
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
@@ -88,11 +88,11 @@ proxies:
   port: 40002
   server: 103.236.66.4
   type: ss
-- name: Japan_Tokyo_trojan_1010
+- name: Poland_None_trojan_1010
   network: tcp
   password: BxceQaOe
-  port: 41421
-  server: 18.183.103.86
+  port: 32434
+  server: 95.40.27.43
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
@@ -108,11 +108,11 @@ proxies:
   port: 50001
   server: 103.236.66.4
   type: ss
-- name: Singapore_Singapore_trojan_1013
+- name: Hong Kong_None_trojan_1013
   network: tcp
   password: BxceQaOe
-  port: 34039
-  server: 54.179.227.94
+  port: 10418
+  server: 18.163.118.157
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
@@ -143,14 +143,14 @@ proxy-groups:
   - China_None_ss_103
   - China_None_ss_104
   - Japan_Tokyo_trojan_105
-  - Hong Kong_None_trojan_106
-  - Singapore_Singapore_trojan_107
+  - Japan_Tokyo_trojan_106
+  - Poland_None_trojan_107
   - China_None_ss_108
   - China_None_ss_109
-  - Japan_Tokyo_trojan_1010
+  - Poland_None_trojan_1010
   - China_None_ss_1011
   - China_None_ss_1012
-  - Singapore_Singapore_trojan_1013
+  - Hong Kong_None_trojan_1013
   - China_None_ss_1014
   - Hong Kong_Central_vmess_1015
 - name: 自动选择
@@ -164,14 +164,14 @@ proxy-groups:
   - China_None_ss_103
   - China_None_ss_104
   - Japan_Tokyo_trojan_105
-  - Hong Kong_None_trojan_106
-  - Singapore_Singapore_trojan_107
+  - Japan_Tokyo_trojan_106
+  - Poland_None_trojan_107
   - China_None_ss_108
   - China_None_ss_109
-  - Japan_Tokyo_trojan_1010
+  - Poland_None_trojan_1010
   - China_None_ss_1011
   - China_None_ss_1012
-  - Singapore_Singapore_trojan_1013
+  - Hong Kong_None_trojan_1013
   - China_None_ss_1014
   - Hong Kong_Central_vmess_1015
 rules:
