@@ -123,7 +123,7 @@ proxies:
   type: ss
 - alterId: 2
   cipher: auto
-  name: Hong Kong_Central_vmess_1012
+  name: Hong Kong_Kowloon_vmess_1012
   port: 30807
   server: v10.hdacd.com
   skip-cert-verify: false
@@ -212,7 +212,7 @@ proxies:
   type: ss
 - alterId: 2
   cipher: auto
-  name: Hong Kong_Central_vmess_1025
+  name: Hong Kong_Kowloon_vmess_1025
   network: tcp
   port: '30807'
   server: v10.hdacd.com
@@ -236,6 +236,22 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
+- alterId: 0
+  cipher: auto
+  name: France_None_vmess_1028
+  network: ws
+  port: 16617
+  server: p4.cnb.linuxlh.xin
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 6ee2a7ba-cd92-427f-ac4f-2f8d284e316c
+  ws-opts:
+    headers:
+      Host: 5b22547ba5cc9b83a7a9534b4a7cf9ea.mobgslb.tbcache.com
+    path: /
+  xudp: true
 proxy-groups:
 - name: 节点选择
   type: select
@@ -253,7 +269,7 @@ proxy-groups:
   - Unknown_vmess_109
   - Unknown_vmess_1010
   - United States_None_ss_1011
-  - Hong Kong_Central_vmess_1012
+  - Hong Kong_Kowloon_vmess_1012
   - China_None_ss_1013
   - China_None_ss_1014
   - Poland_None_trojan_1015
@@ -266,9 +282,10 @@ proxy-groups:
   - China_None_ss_1022
   - Hong Kong_None_trojan_1023
   - China_None_ss_1024
-  - Hong Kong_Central_vmess_1025
+  - Hong Kong_Kowloon_vmess_1025
   - Japan_Tokyo_trojan_1026
   - Hong Kong_None_trojan_1027
+  - France_None_vmess_1028
 - name: 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -286,7 +303,7 @@ proxy-groups:
   - Unknown_vmess_109
   - Unknown_vmess_1010
   - United States_None_ss_1011
-  - Hong Kong_Central_vmess_1012
+  - Hong Kong_Kowloon_vmess_1012
   - China_None_ss_1013
   - China_None_ss_1014
   - Poland_None_trojan_1015
@@ -299,9 +316,10 @@ proxy-groups:
   - China_None_ss_1022
   - Hong Kong_None_trojan_1023
   - China_None_ss_1024
-  - Hong Kong_Central_vmess_1025
+  - Hong Kong_Kowloon_vmess_1025
   - Japan_Tokyo_trojan_1026
   - Hong Kong_None_trojan_1027
+  - France_None_vmess_1028
 rules:
 - DOMAIN,clash.razord.top,DIRECT
 - DOMAIN,yacd.haishan.me,DIRECT
