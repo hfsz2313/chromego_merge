@@ -123,7 +123,7 @@ proxies:
   type: ss
 - alterId: 2
   cipher: auto
-  name: Hong Kong_Kowloon_vmess_1012
+  name: Hong Kong_Central_vmess_1012
   port: 30807
   server: v10.hdacd.com
   skip-cert-verify: false
@@ -212,7 +212,7 @@ proxies:
   type: ss
 - alterId: 2
   cipher: auto
-  name: Hong Kong_Kowloon_vmess_1025
+  name: Hong Kong_Central_vmess_1025
   network: tcp
   port: '30807'
   server: v10.hdacd.com
@@ -243,44 +243,52 @@ proxies:
   server: 121.46.230.138
   type: ss
   udp: true
-- client-fingerprint: chrome
-  name: United States_None_trojan_1029
-  network: ws
-  password: humanity
-  port: '443'
-  server: render.com
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
+- cipher: aes-256-cfb
+  name: United Kingdom_London_ss_1029
+  password: amazonskr05
+  port: 443
+  server: 35.176.118.152
+  type: ss
   udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/55.0.2883.87 Safari/537.36
-    path: /assignment
-- client-fingerprint: chrome
-  name: None_None_trojan_1030
-  network: ws
-  password: humanity
-  port: '443'
-  server: 104.26.14.137
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
+- cipher: aes-256-cfb
+  name: Ireland_Dublin_ss_1030
+  password: amazonskr05
+  port: 443
+  server: 176.34.158.52
+  type: ss
   udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/47.0.2526.111 Safari/537.36
-    path: /assignment
-- alterId: '0'
+- alterId: 0
   cipher: auto
-  name: United States_Los Angeles_vmess_1031
-  network: http
-  port: 40733
-  server: 38.147.160.203
+  name: France_None_vmess_1031
+  network: ws
+  port: 16617
+  server: p4.cnb.linuxlh.xin
+  skip-cert-verify: false
+  tls: false
   type: vmess
-  uuid: 655300ee-f085-4b62-bc56-207e1c095a4a
+  udp: true
+  uuid: 6ee2a7ba-cd92-427f-ac4f-2f8d284e316c
+  ws-opts:
+    headers:
+      Host: 5b22547ba5cc9b83a7a9534b4a7cf9ea.mobgslb.tbcache.com
+    path: /
+  xudp: true
+- alterId: 0
+  cipher: auto
+  name: France_None_vmess_1032
+  network: ws
+  port: 16626
+  server: p4.cnb.linuxlh.xin
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 6ee2a7ba-cd92-427f-ac4f-2f8d284e316c
+  ws-opts:
+    headers:
+      Host: 5b22547ba5cc9b83a7a9534b4a7cf9ea.mobgslb.tbcache.com
+    path: /
+  xudp: true
 proxy-groups:
 - name: 节点选择
   type: select
@@ -298,7 +306,7 @@ proxy-groups:
   - Unknown_vmess_109
   - Unknown_vmess_1010
   - United States_None_ss_1011
-  - Hong Kong_Kowloon_vmess_1012
+  - Hong Kong_Central_vmess_1012
   - China_None_ss_1013
   - China_None_ss_1014
   - Poland_None_trojan_1015
@@ -311,13 +319,14 @@ proxy-groups:
   - China_None_ss_1022
   - Hong Kong_None_trojan_1023
   - China_None_ss_1024
-  - Hong Kong_Kowloon_vmess_1025
+  - Hong Kong_Central_vmess_1025
   - Japan_Tokyo_trojan_1026
   - Hong Kong_None_trojan_1027
   - China_None_ss_1028
-  - United States_None_trojan_1029
-  - None_None_trojan_1030
-  - United States_Los Angeles_vmess_1031
+  - United Kingdom_London_ss_1029
+  - Ireland_Dublin_ss_1030
+  - France_None_vmess_1031
+  - France_None_vmess_1032
 - name: 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -335,7 +344,7 @@ proxy-groups:
   - Unknown_vmess_109
   - Unknown_vmess_1010
   - United States_None_ss_1011
-  - Hong Kong_Kowloon_vmess_1012
+  - Hong Kong_Central_vmess_1012
   - China_None_ss_1013
   - China_None_ss_1014
   - Poland_None_trojan_1015
@@ -348,13 +357,14 @@ proxy-groups:
   - China_None_ss_1022
   - Hong Kong_None_trojan_1023
   - China_None_ss_1024
-  - Hong Kong_Kowloon_vmess_1025
+  - Hong Kong_Central_vmess_1025
   - Japan_Tokyo_trojan_1026
   - Hong Kong_None_trojan_1027
   - China_None_ss_1028
-  - United States_None_trojan_1029
-  - None_None_trojan_1030
-  - United States_Los Angeles_vmess_1031
+  - United Kingdom_London_ss_1029
+  - Ireland_Dublin_ss_1030
+  - France_None_vmess_1031
+  - France_None_vmess_1032
 rules:
 - DOMAIN,clash.razord.top,DIRECT
 - DOMAIN,yacd.haishan.me,DIRECT
