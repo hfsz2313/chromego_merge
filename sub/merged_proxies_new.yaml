@@ -237,24 +237,10 @@ proxies:
   sni: t.me%252Fripaojiedian
   type: trojan
 - cipher: aes-256-cfb
-  name: China_None_ss_1028
-  password: 7eadc6dbe2ae
-  port: 65443
-  server: 121.46.230.233
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: China_None_ss_1029
-  password: 7eadc6dbe2ae
-  port: '65443'
-  server: 121.46.230.138
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: United Kingdom_London_ss_1030
+  name: United Kingdom_London_ss_1028
   password: amazonskr05
   port: '443'
-  server: 18.170.37.90
+  server: 18.132.203.206
   type: ss
   udp: true
 proxy-groups:
@@ -290,9 +276,7 @@ proxy-groups:
   - Hong Kong_Central_vmess_1025
   - Japan_Tokyo_trojan_1026
   - Hong Kong_None_trojan_1027
-  - China_None_ss_1028
-  - China_None_ss_1029
-  - United Kingdom_London_ss_1030
+  - United Kingdom_London_ss_1028
 - name: 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -326,9 +310,7 @@ proxy-groups:
   - Hong Kong_Central_vmess_1025
   - Japan_Tokyo_trojan_1026
   - Hong Kong_None_trojan_1027
-  - China_None_ss_1028
-  - China_None_ss_1029
-  - United Kingdom_London_ss_1030
+  - United Kingdom_London_ss_1028
 rules:
 - DOMAIN,clash.razord.top,DIRECT
 - DOMAIN,yacd.haishan.me,DIRECT
