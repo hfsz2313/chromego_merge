@@ -222,25 +222,19 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- cipher: aes-256-cfb
-  name: China_None_ss_1026
-  password: 7eadc6dbe2ae
-  port: 65443
-  server: 121.46.230.137
-  type: ss
+- name: Japan_Tokyo_trojan_1026
+  password: ultra@kWZdAzt_IH593eGLRjdxnBZ0
+  port: 10012
+  server: z-jp2.1card.cc
+  skip-cert-verify: true
+  sni: www.cloudflare.com
+  type: trojan
   udp: true
 - cipher: aes-256-cfb
   name: China_None_ss_1027
   password: 7eadc6dbe2ae
   port: '65443'
   server: 121.46.230.233
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: China_None_ss_1028
-  password: 7eadc6dbe2ae
-  port: '65443'
-  server: 121.46.230.232
   type: ss
   udp: true
 proxy-groups:
@@ -274,9 +268,8 @@ proxy-groups:
   - United States_None_trojan_1023
   - China_None_ss_1024
   - Hong Kong_Central_vmess_1025
-  - China_None_ss_1026
+  - Japan_Tokyo_trojan_1026
   - China_None_ss_1027
-  - China_None_ss_1028
 - name: 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -308,9 +301,8 @@ proxy-groups:
   - United States_None_trojan_1023
   - China_None_ss_1024
   - Hong Kong_Central_vmess_1025
-  - China_None_ss_1026
+  - Japan_Tokyo_trojan_1026
   - China_None_ss_1027
-  - China_None_ss_1028
 rules:
 - DOMAIN,clash.razord.top,DIRECT
 - DOMAIN,yacd.haishan.me,DIRECT
