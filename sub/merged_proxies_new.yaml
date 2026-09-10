@@ -222,13 +222,6 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- cipher: aes-256-cfb
-  name: China_None_ss_1026
-  password: 7eadc6dbe2ae
-  port: '65443'
-  server: 121.46.230.138
-  type: ss
-  udp: true
 proxy-groups:
 - name: 节点选择
   type: select
@@ -260,7 +253,6 @@ proxy-groups:
   - United States_None_trojan_1023
   - China_None_ss_1024
   - Hong Kong_Central_vmess_1025
-  - China_None_ss_1026
 - name: 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -292,7 +284,6 @@ proxy-groups:
   - United States_None_trojan_1023
   - China_None_ss_1024
   - Hong Kong_Central_vmess_1025
-  - China_None_ss_1026
 rules:
 - DOMAIN,clash.razord.top,DIRECT
 - DOMAIN,yacd.haishan.me,DIRECT
