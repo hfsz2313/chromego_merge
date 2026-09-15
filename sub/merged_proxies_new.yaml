@@ -123,7 +123,7 @@ proxies:
   type: ss
 - alterId: 2
   cipher: auto
-  name: Hong Kong_Central_vmess_1012
+  name: Hong Kong_Sha Tin Wai_vmess_1012
   port: 30807
   server: v10.hdacd.com
   skip-cert-verify: false
@@ -214,7 +214,7 @@ proxies:
   type: ss
 - alterId: 2
   cipher: auto
-  name: Hong Kong_Central_vmess_1025
+  name: Hong Kong_Sha Tin Wai_vmess_1025
   network: tcp
   port: '30807'
   server: v10.hdacd.com
@@ -222,95 +222,6 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alpn:
-  - ''
-  alterId: '0'
-  cipher: auto
-  name: United Kingdom_Dagenham_vmess_1026
-  network: tcp
-  port: '110'
-  server: 31.77.8.97
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: e8758bf0-c234-4809-89f7-25fd868316d0
-  xudp: true
-- client-fingerprint: chrome
-  name: United States_None_trojan_1027
-  network: ws
-  password: humanity
-  port: '443'
-  server: 165.215.250.14
-  skip-cert-verify: true
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Linux; Android 7.0; Moto G (5) Build/NPPS25.137-93-14)
-        AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
-    path: /assignment
-- client-fingerprint: chrome
-  name: None_None_trojan_1028
-  network: ws
-  password: humanity
-  port: '443'
-  server: 104.16.174.71
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Linux; Android 6.0; vivo 1610 Build/MMB29M) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/53.0.2785.124 Mobile Safari/537.36
-    path: /assignment
-- client-fingerprint: chrome
-  name: None_None_trojan_1029
-  network: ws
-  password: humanity
-  port: '443'
-  server: 104.16.174.46
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Linux; Android 6.0; vivo 1610 Build/MMB29M) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/53.0.2785.124 Mobile Safari/537.36
-    path: /assignment
-- client-fingerprint: chrome
-  name: None_None_trojan_1030
-  network: ws
-  password: humanity
-  port: '443'
-  server: 104.18.152.149
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/69.0.3497.100 Safari/537.36
-    path: /assignment
-- client-fingerprint: chrome
-  name: None_None_trojan_1031
-  network: ws
-  password: humanity
-  port: '443'
-  server: 104.18.152.230
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/49.0.2623.110 Safari/537.36
-    path: /assignment
 proxy-groups:
 - name: 节点选择
   type: select
@@ -328,7 +239,7 @@ proxy-groups:
   - Unknown_vmess_109
   - Unknown_vmess_1010
   - United States_None_ss_1011
-  - Hong Kong_Central_vmess_1012
+  - Hong Kong_Sha Tin Wai_vmess_1012
   - China_None_ss_1013
   - China_None_ss_1014
   - Hong Kong_None_trojan_1015
@@ -341,13 +252,7 @@ proxy-groups:
   - China_None_ss_1022
   - United States_None_trojan_1023
   - China_None_ss_1024
-  - Hong Kong_Central_vmess_1025
-  - United Kingdom_Dagenham_vmess_1026
-  - United States_None_trojan_1027
-  - None_None_trojan_1028
-  - None_None_trojan_1029
-  - None_None_trojan_1030
-  - None_None_trojan_1031
+  - Hong Kong_Sha Tin Wai_vmess_1025
 - name: 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -365,7 +270,7 @@ proxy-groups:
   - Unknown_vmess_109
   - Unknown_vmess_1010
   - United States_None_ss_1011
-  - Hong Kong_Central_vmess_1012
+  - Hong Kong_Sha Tin Wai_vmess_1012
   - China_None_ss_1013
   - China_None_ss_1014
   - Hong Kong_None_trojan_1015
@@ -378,13 +283,7 @@ proxy-groups:
   - China_None_ss_1022
   - United States_None_trojan_1023
   - China_None_ss_1024
-  - Hong Kong_Central_vmess_1025
-  - United Kingdom_Dagenham_vmess_1026
-  - United States_None_trojan_1027
-  - None_None_trojan_1028
-  - None_None_trojan_1029
-  - None_None_trojan_1030
-  - None_None_trojan_1031
+  - Hong Kong_Sha Tin Wai_vmess_1025
 rules:
 - DOMAIN,clash.razord.top,DIRECT
 - DOMAIN,yacd.haishan.me,DIRECT
