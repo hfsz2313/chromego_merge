@@ -123,7 +123,7 @@ proxies:
   type: ss
 - alterId: 2
   cipher: auto
-  name: Hong Kong_Tuen Mun_vmess_1012
+  name: Hong Kong_Central_vmess_1012
   port: 30807
   server: v10.hdacd.com
   skip-cert-verify: false
@@ -214,7 +214,7 @@ proxies:
   type: ss
 - alterId: 2
   cipher: auto
-  name: Hong Kong_Tuen Mun_vmess_1025
+  name: Hong Kong_Central_vmess_1025
   network: tcp
   port: '30807'
   server: v10.hdacd.com
@@ -222,20 +222,52 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- cipher: aes-256-cfb
-  name: South Korea_Changwon_ss_1026
-  password: 1234!@#$
-  port: '1774'
-  server: 49.254.204.134
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: United States_Columbus_ss_1027
-  password: amazonskr05
+- client-fingerprint: chrome
+  name: None_None_trojan_1026
+  network: ws
+  password: humanity
   port: '443'
-  server: 18.191.124.183
-  type: ss
+  server: 104.26.15.137
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
   udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.67 Safari/537.36
+    path: /assignment
+- client-fingerprint: chrome
+  name: None_None_trojan_1027
+  network: ws
+  password: humanity
+  port: '443'
+  server: 104.16.174.6
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/52.0.2743.116 Safari/537.36
+    path: /assignment
+- client-fingerprint: safari
+  name: Bulgaria_None_trojan_1028
+  network: ws
+  password: TAJhE0BC0_S1JDm9EmQxyLS64uC8ekbr
+  port: '9433'
+  server: de2.x8lab.org
+  skip-cert-verify: false
+  sni: de2.x8lab.org
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Linux; Android 5.1; HUAWEI CUN-L22 Build/HUAWEICUN-L22;
+        wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/62.0.3202.84
+        Mobile Safari/537.36
+    path: /chatbot
 proxy-groups:
 - name: 节点选择
   type: select
@@ -253,7 +285,7 @@ proxy-groups:
   - Unknown_vmess_109
   - Unknown_vmess_1010
   - United States_None_ss_1011
-  - Hong Kong_Tuen Mun_vmess_1012
+  - Hong Kong_Central_vmess_1012
   - China_None_ss_1013
   - China_None_ss_1014
   - Hong Kong_None_trojan_1015
@@ -266,9 +298,10 @@ proxy-groups:
   - China_None_ss_1022
   - United States_None_trojan_1023
   - China_None_ss_1024
-  - Hong Kong_Tuen Mun_vmess_1025
-  - South Korea_Changwon_ss_1026
-  - United States_Columbus_ss_1027
+  - Hong Kong_Central_vmess_1025
+  - None_None_trojan_1026
+  - None_None_trojan_1027
+  - Bulgaria_None_trojan_1028
 - name: 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -286,7 +319,7 @@ proxy-groups:
   - Unknown_vmess_109
   - Unknown_vmess_1010
   - United States_None_ss_1011
-  - Hong Kong_Tuen Mun_vmess_1012
+  - Hong Kong_Central_vmess_1012
   - China_None_ss_1013
   - China_None_ss_1014
   - Hong Kong_None_trojan_1015
@@ -299,9 +332,10 @@ proxy-groups:
   - China_None_ss_1022
   - United States_None_trojan_1023
   - China_None_ss_1024
-  - Hong Kong_Tuen Mun_vmess_1025
-  - South Korea_Changwon_ss_1026
-  - United States_Columbus_ss_1027
+  - Hong Kong_Central_vmess_1025
+  - None_None_trojan_1026
+  - None_None_trojan_1027
+  - Bulgaria_None_trojan_1028
 rules:
 - DOMAIN,clash.razord.top,DIRECT
 - DOMAIN,yacd.haishan.me,DIRECT
