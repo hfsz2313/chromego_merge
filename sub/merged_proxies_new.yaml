@@ -194,7 +194,7 @@ proxies:
   server: gd.bjnet2.com
   type: ss
 - cipher: aes-128-gcm
-  name: Hong Kong_Hong Kong_ss_1019
+  name: France_None_ss_1019
   password: 17b70f72-fc4f-41a7-a32f-e0bbad7d1400
   plugin: obfs
   plugin-opts:
@@ -214,7 +214,7 @@ proxies:
   server: gd2.bjnet2.com
   type: ss
 - cipher: aes-128-gcm
-  name: France_None_ss_1021
+  name: Hong Kong_Hong Kong_ss_1021
   password: 17b70f72-fc4f-41a7-a32f-e0bbad7d1400
   plugin: obfs
   plugin-opts:
@@ -233,12 +233,6 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- cipher: aes-256-cfb
-  name: Japan_Tokyo_ss_1023
-  password: amazonskr05
-  port: 443
-  server: 18.179.37.17
-  type: ss
 proxy-groups:
 - name: 节点选择
   type: select
@@ -263,11 +257,10 @@ proxy-groups:
   - Hong Kong_Hong Kong_ss_1016
   - Hong Kong_Hong Kong_ss_1017
   - Hong Kong_Hong Kong_ss_1018
-  - Hong Kong_Hong Kong_ss_1019
+  - France_None_ss_1019
   - Hong Kong_Hong Kong_ss_1020
-  - France_None_ss_1021
+  - Hong Kong_Hong Kong_ss_1021
   - Hong Kong_Tuen Mun_vmess_1022
-  - Japan_Tokyo_ss_1023
 - name: 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -292,11 +285,10 @@ proxy-groups:
   - Hong Kong_Hong Kong_ss_1016
   - Hong Kong_Hong Kong_ss_1017
   - Hong Kong_Hong Kong_ss_1018
-  - Hong Kong_Hong Kong_ss_1019
+  - France_None_ss_1019
   - Hong Kong_Hong Kong_ss_1020
-  - France_None_ss_1021
+  - Hong Kong_Hong Kong_ss_1021
   - Hong Kong_Tuen Mun_vmess_1022
-  - Japan_Tokyo_ss_1023
 rules:
 - DOMAIN,clash.razord.top,DIRECT
 - DOMAIN,yacd.haishan.me,DIRECT
