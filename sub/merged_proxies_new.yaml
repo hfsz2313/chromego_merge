@@ -154,7 +154,7 @@ proxies:
       Host: 24864168545164.oylfmxz.cn
     path: /
 - cipher: aes-128-gcm
-  name: Hong Kong_Hong Kong_ss_1015
+  name: France_None_ss_1015
   password: 17b70f72-fc4f-41a7-a32f-e0bbad7d1400
   plugin: obfs
   plugin-opts:
@@ -233,6 +233,21 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- client-fingerprint: chrome
+  name: United States_None_trojan_1023
+  network: ws
+  password: humanity
+  port: '443'
+  server: www.speedtest.org
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/42.0.2311.90 Safari/537.36
+    path: /assignment
 proxy-groups:
 - name: 节点选择
   type: select
@@ -253,7 +268,7 @@ proxy-groups:
   - Hong Kong_Tuen Mun_vmess_1012
   - United States_None_trojan_1013
   - Taiwan_Chang-hua_vmess_1014
-  - Hong Kong_Hong Kong_ss_1015
+  - France_None_ss_1015
   - Hong Kong_Hong Kong_ss_1016
   - Hong Kong_Hong Kong_ss_1017
   - Hong Kong_Hong Kong_ss_1018
@@ -261,6 +276,7 @@ proxy-groups:
   - Hong Kong_Hong Kong_ss_1020
   - Hong Kong_Hong Kong_ss_1021
   - Hong Kong_Tuen Mun_vmess_1022
+  - United States_None_trojan_1023
 - name: 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -281,7 +297,7 @@ proxy-groups:
   - Hong Kong_Tuen Mun_vmess_1012
   - United States_None_trojan_1013
   - Taiwan_Chang-hua_vmess_1014
-  - Hong Kong_Hong Kong_ss_1015
+  - France_None_ss_1015
   - Hong Kong_Hong Kong_ss_1016
   - Hong Kong_Hong Kong_ss_1017
   - Hong Kong_Hong Kong_ss_1018
@@ -289,6 +305,7 @@ proxy-groups:
   - Hong Kong_Hong Kong_ss_1020
   - Hong Kong_Hong Kong_ss_1021
   - Hong Kong_Tuen Mun_vmess_1022
+  - United States_None_trojan_1023
 rules:
 - DOMAIN,clash.razord.top,DIRECT
 - DOMAIN,yacd.haishan.me,DIRECT
