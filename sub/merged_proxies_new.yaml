@@ -154,7 +154,7 @@ proxies:
       Host: 24864168545164.oylfmxz.cn
     path: /
 - cipher: aes-128-gcm
-  name: France_None_ss_1015
+  name: Hong Kong_Hong Kong_ss_1015
   password: 17b70f72-fc4f-41a7-a32f-e0bbad7d1400
   plugin: obfs
   plugin-opts:
@@ -164,7 +164,7 @@ proxies:
   server: gd.bjnet2.com
   type: ss
 - cipher: aes-128-gcm
-  name: Hong Kong_Hong Kong_ss_1016
+  name: Ireland_None_ss_1016
   password: 17b70f72-fc4f-41a7-a32f-e0bbad7d1400
   plugin: obfs
   plugin-opts:
@@ -174,7 +174,7 @@ proxies:
   server: gd2.bjnet2.com
   type: ss
 - cipher: aes-128-gcm
-  name: Hong Kong_Hong Kong_ss_1017
+  name: France_None_ss_1017
   password: 17b70f72-fc4f-41a7-a32f-e0bbad7d1400
   plugin: obfs
   plugin-opts:
@@ -194,7 +194,7 @@ proxies:
   server: gd.bjnet2.com
   type: ss
 - cipher: aes-128-gcm
-  name: France_None_ss_1019
+  name: Hong Kong_Hong Kong_ss_1019
   password: 17b70f72-fc4f-41a7-a32f-e0bbad7d1400
   plugin: obfs
   plugin-opts:
@@ -204,7 +204,7 @@ proxies:
   server: gd.bjnet2.com
   type: ss
 - cipher: aes-128-gcm
-  name: Hong Kong_Hong Kong_ss_1020
+  name: Ireland_None_ss_1020
   password: 17b70f72-fc4f-41a7-a32f-e0bbad7d1400
   plugin: obfs
   plugin-opts:
@@ -233,6 +233,60 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- alpn:
+  - h2
+  - http/1.1
+  alterId: 0
+  cipher: auto
+  name: Colombia_Bogotá_vmess_1023
+  network: tcp
+  port: 2083
+  server: 87.120.106.125
+  servername: qbbnomkb5d6c.libreone.com
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 9081f4d6-7271-49ba-bb9e-b4bb6dc0bb1e
+  xudp: true
+- alpn:
+  - ''
+  alterId: '0'
+  cipher: auto
+  name: United States_San Francisco_vmess_1024
+  network: ws
+  port: '2083'
+  server: 172.64.154.103
+  servername: or.521166.xyz
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: ac251237-576f-40c8-a543-554960c958b1
+  ws-opts:
+    headers:
+      Host: or.521166.xyz
+    path: /or3
+  xudp: true
+- alpn:
+  - ''
+  alterId: '0'
+  cipher: auto
+  name: United States_None_vmess_1025
+  network: ws
+  port: '2083'
+  server: 172.64.229.138
+  servername: or.521166.xyz
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: ac251237-576f-40c8-a543-554960c958b1
+  ws-opts:
+    headers:
+      Host: or.521166.xyz
+    path: /or3
+  xudp: true
 proxy-groups:
 - name: 节点选择
   type: select
@@ -253,14 +307,17 @@ proxy-groups:
   - Hong Kong_Tuen Mun_vmess_1012
   - United States_None_trojan_1013
   - Taiwan_Chang-hua_vmess_1014
-  - France_None_ss_1015
-  - Hong Kong_Hong Kong_ss_1016
-  - Hong Kong_Hong Kong_ss_1017
+  - Hong Kong_Hong Kong_ss_1015
+  - Ireland_None_ss_1016
+  - France_None_ss_1017
   - Hong Kong_Hong Kong_ss_1018
-  - France_None_ss_1019
-  - Hong Kong_Hong Kong_ss_1020
+  - Hong Kong_Hong Kong_ss_1019
+  - Ireland_None_ss_1020
   - France_None_ss_1021
   - Hong Kong_Tuen Mun_vmess_1022
+  - Colombia_Bogotá_vmess_1023
+  - United States_San Francisco_vmess_1024
+  - United States_None_vmess_1025
 - name: 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -281,14 +338,17 @@ proxy-groups:
   - Hong Kong_Tuen Mun_vmess_1012
   - United States_None_trojan_1013
   - Taiwan_Chang-hua_vmess_1014
-  - France_None_ss_1015
-  - Hong Kong_Hong Kong_ss_1016
-  - Hong Kong_Hong Kong_ss_1017
+  - Hong Kong_Hong Kong_ss_1015
+  - Ireland_None_ss_1016
+  - France_None_ss_1017
   - Hong Kong_Hong Kong_ss_1018
-  - France_None_ss_1019
-  - Hong Kong_Hong Kong_ss_1020
+  - Hong Kong_Hong Kong_ss_1019
+  - Ireland_None_ss_1020
   - France_None_ss_1021
   - Hong Kong_Tuen Mun_vmess_1022
+  - Colombia_Bogotá_vmess_1023
+  - United States_San Francisco_vmess_1024
+  - United States_None_vmess_1025
 rules:
 - DOMAIN,clash.razord.top,DIRECT
 - DOMAIN,yacd.haishan.me,DIRECT
